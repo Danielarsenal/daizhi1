@@ -66,19 +66,19 @@ body .pc .logo a embed {
   top: -60px;
   left: 0px;
 }
-body .pc .daiZhi_first {
+body .daiZhi_first {
   overflow: hidden;
 }
-body .pc .daiZhi_first .container .row .leftbox {
+body .daiZhi_first .container .row .leftbox {
   height: 560px;
   padding: 0 28px 0 15px;
 }
-body .pc .daiZhi_first .container .row .leftbox .pad {
+body .daiZhi_first .container .row .leftbox .pad {
   height: 100%;
   background-color: #f4f4f4;
   position: relative;
 }
-body .pc .daiZhi_first .container .row .leftbox .pad .inc {
+body .daiZhi_first .container .row .leftbox .pad .inc {
   height: 200px;
   position: absolute;
   left: 0;
@@ -88,40 +88,31 @@ body .pc .daiZhi_first .container .row .leftbox .pad .inc {
   margin: auto;
   color: #262626;
 }
-body .pc .daiZhi_first .container .row .leftbox .pad .inc p {
+body .daiZhi_first .container .row .leftbox .pad .inc p {
   font-size: 64px;
   text-align: center;
 }
-body .pc .daiZhi_first .container .row .leftbox .pad .inc .p2 {
+body .daiZhi_first .container .row .leftbox .pad .inc .p2 {
   font-size: 24px;
 }
-body .pc .daiZhi_first .container .row .rightbox {
+body .daiZhi_first .container .row .rightbox {
   padding-left: 28px;
 }
-body .pc .daiZhi_first .container .row .rightbox div .mobileImg {
-  width: 100%;
-}
-body .pc .daiZhi_first .container .row .rightbox div .mobileImg > img {
-  width: 100%;
+body .daiZhi_first .container .row .rightbox img {
   display: block;
-}
-body .pc .daiZhi_first .container .row .rightbox div .pcImg {
-  width: 100%;
   height: 560px;
-  display: block;
-  background-position: center center;
   background-size: cover;
 }
-body .pc .daiZhiJiaJu {
+body .daiZhiJiaJu {
   overflow: hidden;
 }
-body .pc .daiZhiJiaJu .container .head {
+body .daiZhiJiaJu .container .head {
   padding-left: 154px;
   padding-top: 50px;
   position: relative;
   height: 142px;
 }
-body .pc .daiZhiJiaJu .container .head .title {
+body .daiZhiJiaJu .container .head .title {
   color: #262626;
   position: absolute;
   left: 0;
@@ -129,27 +120,27 @@ body .pc .daiZhiJiaJu .container .head .title {
   font-size: 32px;
   margin-bottom: 0;
 }
-body .pc .daiZhiJiaJu .container .row .left {
+body .daiZhiJiaJu .container .row .left {
   padding-right: 28px;
 }
-body .pc .daiZhiJiaJu .container .row .left div .mobileImg {
+body .daiZhiJiaJu .container .row .left div .mobileImg {
   width: 100%;
 }
-body .pc .daiZhiJiaJu .container .row .left div .mobileImg > img {
+body .daiZhiJiaJu .container .row .left div .mobileImg > img {
   width: 100%;
   display: block;
 }
-body .pc .daiZhiJiaJu .container .row .left div .pcImg {
+body .daiZhiJiaJu .container .row .left div .pcImg {
   width: 100%;
   height: 560px;
   display: block;
   background-position: center center;
   background-size: cover;
 }
-body .pc .daiZhiJiaJu .container .row .right {
+body .daiZhiJiaJu .container .row .right {
   padding-left: 28px;
 }
-body .pc .daiZhiJiaJu .container .row .right a {
+body .daiZhiJiaJu .container .row .right a {
   width: 100%;
   height: 560px;
   display: block;
@@ -157,21 +148,21 @@ body .pc .daiZhiJiaJu .container .row .right a {
   background-position: center center;
   background-size: cover;
 }
-body .pc .daiZhiJiaJu .container .introduce {
+body .daiZhiJiaJu .container .introduce {
   margin-bottom: 60px;
   position: relative;
 }
-body .pc .daiZhiJiaJu .container .introduce h3 {
+body .daiZhiJiaJu .container .introduce h3 {
   margin: 0px;
   font-size: 32px;
   line-height: 64px;
 }
-body .pc .daiZhiJiaJu .container .introduce p {
+body .daiZhiJiaJu .container .introduce p {
   width: 800px;
   font-size: 16px;
   line-height: 24px;
 }
-body .pc .daiZhiJiaJu .container .introduce button {
+body .daiZhiJiaJu .container .introduce button {
   position: absolute;
   width: 120px;
   height: 48px;
@@ -180,60 +171,60 @@ body .pc .daiZhiJiaJu .container .introduce button {
   color: #b0ad9f;
   font-size: 22px;
 }
-body .pc .daiZhi_flower {
+body .daiZhi_flower {
   overflow: hidden;
   background-color: #f4f4f4;
 }
-body .pc .daiZhi_flower .container {
+body .daiZhi_flower .container {
   padding: 0;
 }
-body .pc .daiZhi_flower .container .row {
+body .daiZhi_flower .container .row {
   margin-top: 80px;
   height: 480px;
 }
-body .pc .daiZhi_flower .container .row .topLeft,
-body .pc .daiZhi_flower .container .row .topRight,
-body .pc .daiZhi_flower .container .row .downLeft,
-body .pc .daiZhi_flower .container .row .downMid,
-body .pc .daiZhi_flower .container .row .downRight {
+body .daiZhi_flower .container .row .topLeft,
+body .daiZhi_flower .container .row .topRight,
+body .daiZhi_flower .container .row .downLeft,
+body .daiZhi_flower .container .row .downMid,
+body .daiZhi_flower .container .row .downRight {
   padding-left: 30px;
   padding-right: 30px;
 }
-body .pc .daiZhi_flower .container .row .topLeft a,
-body .pc .daiZhi_flower .container .row .topRight a,
-body .pc .daiZhi_flower .container .row .downLeft a,
-body .pc .daiZhi_flower .container .row .downMid a,
-body .pc .daiZhi_flower .container .row .downRight a {
+body .daiZhi_flower .container .row .topLeft a,
+body .daiZhi_flower .container .row .topRight a,
+body .daiZhi_flower .container .row .downLeft a,
+body .daiZhi_flower .container .row .downMid a,
+body .daiZhi_flower .container .row .downRight a {
   display: block;
   margin-bottom: 64px;
 }
-body .pc .daiZhi_flower .container .row .topLeft a .kuang,
-body .pc .daiZhi_flower .container .row .topRight a .kuang,
-body .pc .daiZhi_flower .container .row .downLeft a .kuang,
-body .pc .daiZhi_flower .container .row .downMid a .kuang,
-body .pc .daiZhi_flower .container .row .downRight a .kuang {
+body .daiZhi_flower .container .row .topLeft a .kuang,
+body .daiZhi_flower .container .row .topRight a .kuang,
+body .daiZhi_flower .container .row .downLeft a .kuang,
+body .daiZhi_flower .container .row .downMid a .kuang,
+body .daiZhi_flower .container .row .downRight a .kuang {
   height: 400px;
 }
-body .pc .daiZhi_flower .container .row .topLeft a .kuang .mobileImg,
-body .pc .daiZhi_flower .container .row .topRight a .kuang .mobileImg,
-body .pc .daiZhi_flower .container .row .downLeft a .kuang .mobileImg,
-body .pc .daiZhi_flower .container .row .downMid a .kuang .mobileImg,
-body .pc .daiZhi_flower .container .row .downRight a .kuang .mobileImg {
+body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg,
+body .daiZhi_flower .container .row .topRight a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downMid a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downRight a .kuang .mobileImg {
   width: 100%;
 }
-body .pc .daiZhi_flower .container .row .topLeft a .kuang .mobileImg > img,
-body .pc .daiZhi_flower .container .row .topRight a .kuang .mobileImg > img,
-body .pc .daiZhi_flower .container .row .downLeft a .kuang .mobileImg > img,
-body .pc .daiZhi_flower .container .row .downMid a .kuang .mobileImg > img,
-body .pc .daiZhi_flower .container .row .downRight a .kuang .mobileImg > img {
+body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .topRight a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downMid a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downRight a .kuang .mobileImg > img {
   width: 100%;
   display: block;
 }
-body .pc .daiZhi_flower .container .row .topLeft a .kuang .pcImg,
-body .pc .daiZhi_flower .container .row .topRight a .kuang .pcImg,
-body .pc .daiZhi_flower .container .row .downLeft a .kuang .pcImg,
-body .pc .daiZhi_flower .container .row .downMid a .kuang .pcImg,
-body .pc .daiZhi_flower .container .row .downRight a .kuang .pcImg {
+body .daiZhi_flower .container .row .topLeft a .kuang .pcImg,
+body .daiZhi_flower .container .row .topRight a .kuang .pcImg,
+body .daiZhi_flower .container .row .downLeft a .kuang .pcImg,
+body .daiZhi_flower .container .row .downMid a .kuang .pcImg,
+body .daiZhi_flower .container .row .downRight a .kuang .pcImg {
   width: 100%;
   height: 400px;
   display: block;
@@ -241,32 +232,32 @@ body .pc .daiZhi_flower .container .row .downRight a .kuang .pcImg {
   background-size: cover;
   border: 1px solid #999481;
 }
-body .pc .daiZhi_flower .container .row .topLeft a h3,
-body .pc .daiZhi_flower .container .row .topRight a h3,
-body .pc .daiZhi_flower .container .row .downLeft a h3,
-body .pc .daiZhi_flower .container .row .downMid a h3,
-body .pc .daiZhi_flower .container .row .downRight a h3 {
+body .daiZhi_flower .container .row .topLeft a h3,
+body .daiZhi_flower .container .row .topRight a h3,
+body .daiZhi_flower .container .row .downLeft a h3,
+body .daiZhi_flower .container .row .downMid a h3,
+body .daiZhi_flower .container .row .downRight a h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 52px;
   color: #262626;
 }
-body .pc .daiZhi_flower .container .row .topLeft a p,
-body .pc .daiZhi_flower .container .row .topRight a p,
-body .pc .daiZhi_flower .container .row .downLeft a p,
-body .pc .daiZhi_flower .container .row .downMid a p,
-body .pc .daiZhi_flower .container .row .downRight a p {
+body .daiZhi_flower .container .row .topLeft a p,
+body .daiZhi_flower .container .row .topRight a p,
+body .daiZhi_flower .container .row .downLeft a p,
+body .daiZhi_flower .container .row .downMid a p,
+body .daiZhi_flower .container .row .downRight a p {
   font-size: 24px;
   margin: 0px;
 }
-body .pc .daiZhi_flower .container .row .topMid {
+body .daiZhi_flower .container .row .topMid {
   height: 100%;
 }
-body .pc .daiZhi_flower .container .row .topMid a {
+body .daiZhi_flower .container .row .topMid a {
   margin-bottom: 64px;
 }
-body .pc .daiZhi_flower .container .row .topMid a .kuang {
+body .daiZhi_flower .container .row .topMid a .kuang {
   border: 1px solid #999481;
   position: relative;
   width: 100%;
@@ -274,7 +265,7 @@ body .pc .daiZhi_flower .container .row .topMid a .kuang {
   margin: 0 auto;
   box-sizing: border-box;
 }
-body .pc .daiZhi_flower .container .row .topMid a .kuang div {
+body .daiZhi_flower .container .row .topMid a .kuang div {
   width: 280px;
   height: 400px;
   position: absolute;
@@ -282,14 +273,14 @@ body .pc .daiZhi_flower .container .row .topMid a .kuang div {
   top: 80px;
   margin-left: -140px;
 }
-body .pc .daiZhi_flower .container .row .topMid a .kuang div p {
+body .daiZhi_flower .container .row .topMid a .kuang div p {
   font-size: 64px;
   text-align: center;
 }
-body .pc .daiZhi_flower .container .row .topMid a .kuang div .p2 {
+body .daiZhi_flower .container .row .topMid a .kuang div .p2 {
   font-size: 32px;
 }
-body .pc .daiZhi_flower .container .row .topMid a .kuang div button {
+body .daiZhi_flower .container .row .topMid a .kuang div button {
   background-color: transparent;
   width: 120px;
   height: 48px;
@@ -300,34 +291,34 @@ body .pc .daiZhi_flower .container .row .topMid a .kuang div button {
   left: 50%;
   margin-left: -60px;
 }
-body .pc .daiZhi_flower .container .row .topRight a .kuang {
-  background: url('../Image/黛芷花园/图片/花篮/FullSizeRender 72.jpg') no-repeat 0px 0px;
+body .daiZhi_flower .container .row .topRight a .kuang {
+  background: url('../Image/PC/主页/黛芷花园/hualan1.jpg') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc .daiZhi_flower .container .row .downLeft a .kuang {
-  background: url('../Image/黛芷花园/图片/花篮/IMG_0695 2.JPG') no-repeat 0px 0px;
+body .daiZhi_flower .container .row .downLeft a .kuang {
+  background: url('../Image/PC/主页/黛芷花园/huahe 3.jpg') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc .daiZhi_flower .container .row .downMid {
+body .daiZhi_flower .container .row .downMid {
   padding: 0 15px;
 }
-body .pc .daiZhi_flower .container .row .downMid a .kuang {
-  background: url('../Image/黛芷花园/图片/商业瓶花/FullSizeRender 73.jpg') no-repeat 0px 0px;
+body .daiZhi_flower .container .row .downMid a .kuang {
+  background: url('../Image/PC/主页/黛芷花园/30.jpg') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc .daiZhi_flower .container .row .downRight a .kuang {
-  background: url('../Image/黛芷花园/图片/花盒/FullSizeRender 71.jpg') no-repeat 0px 0px;
+body .daiZhi_flower .container .row .downRight a .kuang {
+  background: url('../Image/PC/主页/黛芷花园/20.JPG') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc .daiZhi_flower .container .down {
+body .daiZhi_flower .container .down {
   margin-top: 64px;
   height: 480px;
 }
-body .pc .daiZhi_flower .container .down .downLeft div {
+body .daiZhi_flower .container .down .downLeft div {
   width: 400px;
   float: left;
 }
-body .pc .daiZhi_flower .container .down .downLeft div .kuang {
+body .daiZhi_flower .container .down .downLeft div .kuang {
   border: 1px solid #8c8c8c;
   height: 400px;
   width: 400px;
@@ -336,33 +327,33 @@ body .pc .daiZhi_flower .container .down .downLeft div .kuang {
   overflow: hidden;
   position: relative;
 }
-body .pc .daiZhi_flower .container .down .downLeft div .kuang a {
+body .daiZhi_flower .container .down .downLeft div .kuang a {
   display: block;
   width: 100%;
   height: 100%;
 }
-body .pc .daiZhi_flower .container .down .downLeft div .kuang a img {
+body .daiZhi_flower .container .down .downLeft div .kuang a img {
   width: 400px;
   position: absolute;
   top: -135px;
   left: 0px;
 }
-body .pc .daiZhi_flower .container .down .downLeft div h3 {
+body .daiZhi_flower .container .down .downLeft div h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 52px;
   color: #262626;
 }
-body .pc .daiZhi_flower .container .down .downLeft div p {
+body .daiZhi_flower .container .down .downLeft div p {
   font-size: 24px;
   margin: 0px;
 }
-body .pc .daiZhi_flower .container .down .downMid div {
+body .daiZhi_flower .container .down .downMid div {
   width: 400px;
   margin: 0 auto;
 }
-body .pc .daiZhi_flower .container .down .downMid div .kuang {
+body .daiZhi_flower .container .down .downMid div .kuang {
   border: 1px solid #8c8c8c;
   height: 400px;
   width: 400px;
@@ -371,33 +362,33 @@ body .pc .daiZhi_flower .container .down .downMid div .kuang {
   overflow: hidden;
   position: relative;
 }
-body .pc .daiZhi_flower .container .down .downMid div .kuang a {
+body .daiZhi_flower .container .down .downMid div .kuang a {
   display: block;
   width: 100%;
   height: 100%;
 }
-body .pc .daiZhi_flower .container .down .downMid div .kuang a img {
+body .daiZhi_flower .container .down .downMid div .kuang a img {
   width: 400px;
   position: absolute;
   top: -80px;
   left: 0px;
 }
-body .pc .daiZhi_flower .container .down .downMid div h3 {
+body .daiZhi_flower .container .down .downMid div h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 52px;
   color: #262626;
 }
-body .pc .daiZhi_flower .container .down .downMid div p {
+body .daiZhi_flower .container .down .downMid div p {
   font-size: 24px;
   margin: 0px;
 }
-body .pc .daiZhi_flower .container .down .downRight div {
+body .daiZhi_flower .container .down .downRight div {
   width: 400px;
   float: right;
 }
-body .pc .daiZhi_flower .container .down .downRight div .kuang {
+body .daiZhi_flower .container .down .downRight div .kuang {
   border: 1px solid #8c8c8c;
   height: 400px;
   width: 400px;
@@ -406,38 +397,38 @@ body .pc .daiZhi_flower .container .down .downRight div .kuang {
   overflow: hidden;
   position: relative;
 }
-body .pc .daiZhi_flower .container .down .downRight div .kuang a {
+body .daiZhi_flower .container .down .downRight div .kuang a {
   display: block;
   width: 100%;
   height: 100%;
 }
-body .pc .daiZhi_flower .container .down .downRight div .kuang a img {
+body .daiZhi_flower .container .down .downRight div .kuang a img {
   width: 400px;
   position: absolute;
   top: -80px;
   left: 0px;
 }
-body .pc .daiZhi_flower .container .down .downRight div h3 {
+body .daiZhi_flower .container .down .downRight div h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 52px;
   color: #262626;
 }
-body .pc .daiZhi_flower .container .down .downRight div p {
+body .daiZhi_flower .container .down .downRight div p {
   font-size: 24px;
   margin: 0px;
 }
-body .pc .daiZhiChaShi {
+body .daiZhiChaShi {
   overflow: hidden;
 }
-body .pc .daiZhiChaShi .container .head {
+body .daiZhiChaShi .container .head {
   padding-right: 154px;
   padding-top: 50px;
   position: relative;
   height: 142px;
 }
-body .pc .daiZhiChaShi .container .head .title {
+body .daiZhiChaShi .container .head .title {
   color: #262626;
   position: absolute;
   right: 0;
@@ -445,7 +436,7 @@ body .pc .daiZhiChaShi .container .head .title {
   font-size: 32px;
   margin-bottom: 0;
 }
-body .pc .daiZhiChaShi .container .row .leftbox a {
+body .daiZhiChaShi .container .row .leftbox a {
   width: 100%;
   height: 560px;
   display: block;
@@ -453,7 +444,7 @@ body .pc .daiZhiChaShi .container .row .leftbox a {
   background-position: center center;
   background-size: cover;
 }
-body .pc .daiZhiChaShi .container .row .rightbox a {
+body .daiZhiChaShi .container .row .rightbox a {
   width: 100%;
   height: 560px;
   display: block;
@@ -461,22 +452,22 @@ body .pc .daiZhiChaShi .container .row .rightbox a {
   background-position: center center;
   background-size: cover;
 }
-body .pc .daiZhiChaShi .container .introduce {
+body .daiZhiChaShi .container .introduce {
   margin-top: 15px;
   margin-bottom: 60px;
   position: relative;
 }
-body .pc .daiZhiChaShi .container .introduce h3 {
+body .daiZhiChaShi .container .introduce h3 {
   margin: 0px;
   font-size: 32px;
   line-height: 64px;
   margin-bottom: 5px;
 }
-body .pc .daiZhiChaShi .container .introduce p {
+body .daiZhiChaShi .container .introduce p {
   font-size: 16px;
   line-height: 24px;
 }
-body .pc .daiZhiChaShi .container .introduce button {
+body .daiZhiChaShi .container .introduce button {
   position: absolute;
   width: 120px;
   height: 48px;
@@ -485,75 +476,75 @@ body .pc .daiZhiChaShi .container .introduce button {
   color: #b0ad9f;
   font-size: 22px;
 }
-body .pc .other {
+body .other {
   overflow: hidden;
 }
-body .pc .other .container {
+body .other .container {
   padding: 0;
 }
-body .pc .other .container .row {
+body .other .container .row {
   height: 350px;
 }
-body .pc .other .container .row .topLeft a,
-body .pc .other .container .row .topMid a,
-body .pc .other .container .row .topRight a {
+body .other .container .row .topLeft a,
+body .other .container .row .topMid a,
+body .other .container .row .topRight a {
   display: block;
   margin-bottom: 64px;
 }
-body .pc .other .container .row .topLeft a .kuang,
-body .pc .other .container .row .topMid a .kuang,
-body .pc .other .container .row .topRight a .kuang {
+body .other .container .row .topLeft a .kuang,
+body .other .container .row .topMid a .kuang,
+body .other .container .row .topRight a .kuang {
   height: 240px;
   background: url('../Image/PC/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
   background-size: cover;
   border: 1px solid #8c8c8c;
   box-sizing: border-box;
 }
-body .pc .other .container .row .topLeft a h3,
-body .pc .other .container .row .topMid a h3,
-body .pc .other .container .row .topRight a h3 {
+body .other .container .row .topLeft a h3,
+body .other .container .row .topMid a h3,
+body .other .container .row .topRight a h3 {
   font-size: 24px;
   color: #292929;
 }
-body .pc .other .container .row .topLeft a p,
-body .pc .other .container .row .topMid a p,
-body .pc .other .container .row .topRight a p {
+body .other .container .row .topLeft a p,
+body .other .container .row .topMid a p,
+body .other .container .row .topRight a p {
   font-size: 16px;
   line-height: 26px;
 }
-body .pc .other .container .row .topMid a .kuang {
+body .other .container .row .topMid a .kuang {
   background: url('../Image/PC/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc .other .container .row .topRight a .kuang {
+body .other .container .row .topRight a .kuang {
   background: url('../Image/PC/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
   background-size: cover;
 }
-body .pc footer {
+body footer {
   overflow: hidden;
   background-color: #f4f4f4;
   padding-top: 38px;
 }
-body .pc footer .container .row {
+body footer .container .row {
   padding-bottom: 100px;
 }
-body .pc footer .container .row .footLeft,
-body .pc footer .container .row .footMid,
-body .pc footer .container .row .footRight {
+body footer .container .row .footLeft,
+body footer .container .row .footMid,
+body footer .container .row .footRight {
   padding-left: 0;
   padding-right: 28px;
 }
-body .pc footer .container .row .footLeft p,
-body .pc footer .container .row .footMid p,
-body .pc footer .container .row .footRight p {
+body footer .container .row .footLeft p,
+body footer .container .row .footMid p,
+body footer .container .row .footRight p {
   font-size: 16px;
   line-height: 28px;
   color: #999481;
 }
-body .pc footer .container .row .footMid {
+body footer .container .row .footMid {
   padding: 0 70px;
 }
-body .pc footer .container .row .footRight {
+body footer .container .row .footRight {
   padding: 0 100px;
 }
 body #content {

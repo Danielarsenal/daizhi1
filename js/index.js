@@ -1,7 +1,5 @@
 
 $(function () {
-
-
     /*获取当前所有item*/
     var items = $(".rightbox .item");
     getPhoto(items);
