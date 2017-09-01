@@ -1,0 +1,204 @@
+body .fuye_pc {
+  display: none;
+}
+body .fuye_ipad {
+  display: block;
+}
+body .daiZhi_nav .container-fluid {
+  background-color: #f4f4f4;
+  color: #999481;
+}
+body .daiZhi_nav .container-fluid .navbar-header button {
+  display: block;
+}
+body .daiZhi_nav .container-fluid .collapse {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse.navbar {
+  margin-bottom: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li {
+  padding: 0px 5px;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li > a {
+  font-size: 18px;
+  line-height: 50px;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type a {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] a {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-toggle {
+  margin-top: 23px;
+}
+body .daiZhi_first .container .row .pad {
+  width: 100%;
+  text-align: center;
+}
+body .daiZhi_first .container .row .pad .inc {
+  color: #262626;
+}
+body .daiZhi_first .container .row .pad .inc p {
+  font-size: 36px;
+  text-align: center;
+}
+body .daiZhi_first .container .row .pad .inc .p2 {
+  font-size: 22px;
+}
+body .daiZhi_first .container .row .rightbox div .mobileImg {
+  width: 100%;
+}
+body .daiZhi_first .container .row .rightbox div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .daiZhi_first .container .row .rightbox div .pcImg {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .daiZhi_first .container .introduce {
+  position: relative;
+}
+body .daiZhi_first .container .introduce h3 {
+  margin: 0px;
+  font-size: 32px;
+  line-height: 64px;
+}
+body .daiZhi_first .container .introduce p {
+  width: 500px;
+  font-size: 14px;
+  line-height: 24px;
+}
+body .daiZhi_first .container .introduce button {
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  right: 0;
+  top: 60px;
+  color: #b0ad9f;
+  font-size: 22px;
+}
+body .daiZhi_second {
+  margin-top: 25px;
+}
+body .daiZhi_second .container .row .pad {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .daiZhi_second .container .row .pad .inc {
+  color: #262626;
+}
+body .daiZhi_second .container .row .pad .inc p {
+  font-size: 24px;
+  text-align: center;
+}
+body .daiZhi_second .container .row .pad .inc .p2 {
+  font-size: 22px;
+}
+body .daiZhi_second .container .row .rightbox div .mobileImg {
+  width: 100%;
+}
+body .daiZhi_second .container .row .rightbox div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .daiZhi_second .container .row .rightbox div .pcImg {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .other .container {
+  padding: 0;
+}
+body .other .container .row .topLeft,
+body .other .container .row .topMid,
+body .other .container .row .topRight {
+  padding-bottom: 16px;
+  padding-top: 5px;
+  border-bottom: 1px solid #262626;
+}
+body .other .container .row .topLeft a,
+body .other .container .row .topMid a,
+body .other .container .row .topRight a {
+  display: block;
+  height: 192px;
+}
+body .other .container .row .topLeft a .kuang,
+body .other .container .row .topMid a .kuang,
+body .other .container .row .topRight a .kuang {
+  float: left;
+  width: 320px;
+  height: 192px;
+  background: url('../Image/黛芷家居/Home Decor/WYM_7395.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  border: 1px solid #8c8c8c;
+  box-sizing: border-box;
+}
+body .other .container .row .topLeft a h3,
+body .other .container .row .topMid a h3,
+body .other .container .row .topRight a h3 {
+  padding-top: 70px;
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 24px;
+  color: #292929;
+}
+body .other .container .row .topLeft a p,
+body .other .container .row .topMid a p,
+body .other .container .row .topRight a p {
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 16px;
+  line-height: 26px;
+}
+body .other .container .row .topMid a .kuang {
+  background: url('../Image/黛芷家居/Home Decor/WYM_7375.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .other .container .row .topRight {
+  border-bottom: none;
+  margin-bottom: 60px;
+}
+body .other .container .row .topRight a .kuang {
+  background: url('../Image/黛芷家居/Home Decor/WYM_7325.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body footer {
+  background-color: #f4f4f4;
+  padding-top: 38px;
+}
+body footer .container .row {
+  padding-bottom: 100px;
+}
+body footer .container .row .footLeft,
+body footer .container .row .footMid,
+body footer .container .row .footRight {
+  padding-left: 0;
+  padding-right: 28px;
+}
+body footer .container .row .footLeft p,
+body footer .container .row .footMid p,
+body footer .container .row .footRight p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999481;
+}

@@ -1,0 +1,469 @@
+body .container {
+  position: relative;
+}
+body .daiZhi_nav .container-fluid {
+  background-color: #f4f4f4;
+  color: #999481;
+}
+body .daiZhi_nav .container-fluid .navbar-header button {
+  display: block;
+}
+body .daiZhi_nav .container-fluid .collapse {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse.navbar {
+  margin-bottom: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li {
+  padding: 0px 5px;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li > a {
+  font-size: 18px;
+  line-height: 50px;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type a {
+  padding-left: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] a {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .daiZhi_nav .container-fluid .collapse .navbar-toggle {
+  margin-top: 23px;
+}
+body .pc {
+  display: none;
+}
+body .daiZhi_first .container .row .pad {
+  width: 100%;
+  text-align: center;
+}
+body .daiZhi_first .container .row .pad .inc {
+  color: #262626;
+}
+body .daiZhi_first .container .row .pad .inc p {
+  font-size: 36px;
+  text-align: center;
+}
+body .daiZhi_first .container .row .pad .inc .p2 {
+  font-size: 22px;
+}
+body .daiZhi_first .container .row .rightbox div .mobileImg {
+  width: 100%;
+}
+body .daiZhi_first .container .row .rightbox div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .daiZhi_first .container .row .rightbox div .pcImg {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .daiZhiJiaJu .container .head {
+  text-align: center;
+}
+body .daiZhiJiaJu .container .head .title {
+  color: #262626;
+  font-size: 32px;
+  line-height: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .daiZhiJiaJu .container .row .left div .mobileImg {
+  width: 100%;
+}
+body .daiZhiJiaJu .container .row .left div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .daiZhiJiaJu .container .row .left div .pcImg {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .daiZhiJiaJu .container .introduce {
+  margin-bottom: 60px;
+  position: relative;
+}
+body .daiZhiJiaJu .container .introduce h3 {
+  margin: 0px;
+  font-size: 32px;
+  line-height: 64px;
+}
+body .daiZhiJiaJu .container .introduce p {
+  width: 500px;
+  font-size: 14px;
+  line-height: 24px;
+}
+body .daiZhiJiaJu .container .introduce button {
+  display: none;
+}
+body .daiZhi_flower .container .row .head p {
+  font-size: 36px;
+  line-height: 80px;
+  text-align: center;
+}
+body .daiZhi_flower .container .row .topLeft a,
+body .daiZhi_flower .container .row .topRight a,
+body .daiZhi_flower .container .row .downLeft a,
+body .daiZhi_flower .container .row .downMid a,
+body .daiZhi_flower .container .row .downRight a {
+  display: block;
+  padding-bottom: 32px;
+}
+body .daiZhi_flower .container .row .topLeft a .kuang,
+body .daiZhi_flower .container .row .topRight a .kuang,
+body .daiZhi_flower .container .row .downLeft a .kuang,
+body .daiZhi_flower .container .row .downMid a .kuang,
+body .daiZhi_flower .container .row .downRight a .kuang {
+  height: 400px;
+}
+body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg,
+body .daiZhi_flower .container .row .topRight a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downMid a .kuang .mobileImg,
+body .daiZhi_flower .container .row .downRight a .kuang .mobileImg {
+  width: 100%;
+}
+body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .topRight a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downMid a .kuang .mobileImg > img,
+body .daiZhi_flower .container .row .downRight a .kuang .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .daiZhi_flower .container .row .topLeft a .kuang .pcImg,
+body .daiZhi_flower .container .row .topRight a .kuang .pcImg,
+body .daiZhi_flower .container .row .downLeft a .kuang .pcImg,
+body .daiZhi_flower .container .row .downMid a .kuang .pcImg,
+body .daiZhi_flower .container .row .downRight a .kuang .pcImg {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #999481;
+}
+body .daiZhi_flower .container .row .topLeft a h3,
+body .daiZhi_flower .container .row .topRight a h3,
+body .daiZhi_flower .container .row .downLeft a h3,
+body .daiZhi_flower .container .row .downMid a h3,
+body .daiZhi_flower .container .row .downRight a h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 52px;
+  color: #262626;
+}
+body .daiZhi_flower .container .row .topLeft a p,
+body .daiZhi_flower .container .row .topRight a p,
+body .daiZhi_flower .container .row .downLeft a p,
+body .daiZhi_flower .container .row .downMid a p,
+body .daiZhi_flower .container .row .downRight a p {
+  font-size: 24px;
+  margin: 0px;
+}
+body .daiZhi_flower .container .row .topLeft {
+  border-right: 1px solid #999481;
+}
+body .daiZhi_flower .container .row .topRight a .kuang {
+  background: url('../Image/黛芷花园/图片/花篮/FullSizeRender 72.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .daiZhi_flower .container .row .downLeft {
+  padding-top: 32px;
+  border-right: 1px solid #999481;
+  border-top: 1px solid #999481;
+}
+body .daiZhi_flower .container .row .downLeft a .kuang {
+  background: url('../Image/黛芷花园/图片/花篮/IMG_0695 2.JPG') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .daiZhi_flower .container .row .downRight {
+  padding-top: 32px;
+  border-top: 1px solid #999481;
+}
+body .daiZhi_flower .container .row .downRight a .kuang {
+  background: url('../Image/黛芷花园/图片/花盒/FullSizeRender 71.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .daiZhi_flower .container .down {
+  margin-top: 64px;
+  height: 480px;
+}
+body .daiZhi_flower .container .down .downLeft div {
+  width: 400px;
+  float: left;
+}
+body .daiZhi_flower .container .down .downLeft div .kuang {
+  border: 1px solid #8c8c8c;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+body .daiZhi_flower .container .down .downLeft div .kuang a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+body .daiZhi_flower .container .down .downLeft div .kuang a img {
+  width: 400px;
+  position: absolute;
+  top: -135px;
+  left: 0px;
+}
+body .daiZhi_flower .container .down .downLeft div h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 52px;
+  color: #262626;
+}
+body .daiZhi_flower .container .down .downLeft div p {
+  font-size: 24px;
+  margin: 0px;
+}
+body .daiZhi_flower .container .down .downMid div {
+  width: 400px;
+  margin: 0 auto;
+}
+body .daiZhi_flower .container .down .downMid div .kuang {
+  border: 1px solid #8c8c8c;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+body .daiZhi_flower .container .down .downMid div .kuang a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+body .daiZhi_flower .container .down .downMid div .kuang a img {
+  width: 400px;
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
+body .daiZhi_flower .container .down .downMid div h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 52px;
+  color: #262626;
+}
+body .daiZhi_flower .container .down .downMid div p {
+  font-size: 24px;
+  margin: 0px;
+}
+body .daiZhi_flower .container .down .downRight div {
+  width: 400px;
+  float: right;
+}
+body .daiZhi_flower .container .down .downRight div .kuang {
+  border: 1px solid #8c8c8c;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+body .daiZhi_flower .container .down .downRight div .kuang a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+body .daiZhi_flower .container .down .downRight div .kuang a img {
+  width: 400px;
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
+body .daiZhi_flower .container .down .downRight div h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 52px;
+  color: #262626;
+}
+body .daiZhi_flower .container .down .downRight div p {
+  font-size: 24px;
+  margin: 0px;
+}
+body .other .container {
+  padding: 0;
+}
+body .other .container .row .topLeft,
+body .other .container .row .topMid,
+body .other .container .row .topRight {
+  padding-bottom: 16px;
+  padding-top: 5px;
+  border-bottom: 1px solid #262626;
+}
+body .other .container .row .topLeft a,
+body .other .container .row .topMid a,
+body .other .container .row .topRight a {
+  display: block;
+  height: 192px;
+}
+body .other .container .row .topLeft a .kuang,
+body .other .container .row .topMid a .kuang,
+body .other .container .row .topRight a .kuang {
+  float: left;
+  width: 320px;
+  height: 192px;
+  background: url('../Image/黛芷家居/Home Decor/WYM_7395.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  border: 1px solid #8c8c8c;
+  box-sizing: border-box;
+}
+body .other .container .row .topLeft a h3,
+body .other .container .row .topMid a h3,
+body .other .container .row .topRight a h3 {
+  padding-top: 70px;
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 24px;
+  color: #292929;
+}
+body .other .container .row .topLeft a p,
+body .other .container .row .topMid a p,
+body .other .container .row .topRight a p {
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 16px;
+  line-height: 26px;
+}
+body .other .container .row .topMid a .kuang {
+  background: url('../Image/黛芷家居/Home Decor/WYM_7375.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .other .container .row .topRight {
+  border-bottom: none;
+  margin-bottom: 60px;
+}
+body .other .container .row .topRight a .kuang {
+  background: url('../Image/黛芷家居/Home Decor/WYM_7325.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .ipad-nav {
+  width: 100%;
+  height: 80px;
+  background: #f7f7f7;
+}
+body .ipad-nav .content {
+  width: 95.83333333%;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+body .ipad-nav .content .nav-left {
+  width: 36px;
+  height: 24px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  transition: .5s all linear;
+}
+body .ipad-nav .content .nav-left p {
+  width: 36px;
+  height: 6px;
+  background: #999481;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+}
+body .ipad-nav .content .nav-left .first {
+  margin-top: 0;
+}
+body .ipad-nav .content #logo {
+  width: 125px;
+  height: 40px;
+}
+body .ipad-nav .content #logo embed {
+  display: block;
+  width: 125px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+body .ipad-nav .content .language embed {
+  display: block;
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+body .ipad-nav .content .nav-active {
+  transform: rotate(90deg);
+  transition: .5s all linear;
+}
+body .nav-content {
+  width: 240px;
+  height: 100%;
+  background: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: -240px;
+  z-index: 2;
+}
+body .nav-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+body .nav-content ul li {
+  padding-left: 15px;
+  padding-right: 10px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 24px;
+  border-bottom: 1px solid #999481;
+}
+body .nav-content ul li embed {
+  display: block;
+  width: 40px;
+  float: right;
+  margin-top: 20px;
+}
+footer {
+  background-color: #f4f4f4;
+  padding-top: 38px;
+}
+footer .container .row {
+  padding-bottom: 100px;
+}
+footer .container .row .footLeft,
+footer .container .row .footMid,
+footer .container .row .footRight {
+  padding-left: 0;
+  padding-right: 28px;
+}
+footer .container .row .footLeft p,
+footer .container .row .footMid p,
+footer .container .row .footRight p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999481;
+}

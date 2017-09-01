@@ -1,0 +1,603 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  min-width: 1312px;
+}
+body .fuye_ipad {
+  display: none;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background: #f4f4f4;
+}
+.header .content {
+  width: 91.11111111%;
+  height: 80px;
+  margin: 0 auto;
+}
+.header .content .nav {
+  float: left;
+}
+.header .content .nav ul li {
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  margin-left: 2.4rem;
+  line-height: 80px;
+}
+.header .content .nav ul li a {
+  color: #999481;
+  text-decoration: none;
+}
+.header .content .nav ul li.index {
+  margin-left: 0;
+}
+.header .content .language {
+  float: right;
+  color: #999481;
+  line-height: 80px;
+  font-size: 20px;
+}
+.header .content .language a {
+  color: #999481;
+  text-decoration: none;
+}
+.section {
+  width: 91.11111111%;
+  margin: 0 auto;
+}
+.logo {
+  width: 250px;
+  height: 76px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.logo img {
+  display: block;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  margin-top: 32px;
+  text-align: center;
+}
+.navbar ul {
+  width: 640px;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.navbar ul li {
+  float: left;
+  margin-left: 24px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.navbar ul .first {
+  margin-left: 0;
+}
+.navbar ul .first a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 48px;
+  overflow: hidden;
+}
+.carousel .imglist {
+  width: 100%;
+}
+.carousel .imglist li {
+  width: 100%;
+}
+.carousel .imglist li img {
+  display: block;
+  width: 100%;
+  height: 720px;
+}
+.carousel .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.55;
+  filter: alpha(opacity=55);
+}
+.carousel .swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+}
+.dardree-home {
+  width: 100%;
+  height: 528px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.dardree-home .fragrant {
+  width: 30.48780488%;
+  float: left;
+}
+.dardree-home .fragrant .top {
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  border: 1px solid #999481;
+  position: relative;
+}
+.dardree-home .fragrant .top p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-weight: 100;
+  color: #000;
+}
+.dardree-home .fragrant .top i {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: #8c8c8c;
+  position: absolute;
+  top: 96px;
+  left: 168px;
+}
+.dardree-home .fragrant .top span {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  font-weight: 400;
+  top: 110px;
+  left: 0;
+}
+.dardree-home .fragrant .top .see {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #999481;
+  border-radius: 4px;
+  text-align: center;
+  color: #999481;
+  line-height: 32px;
+  font-size: 16px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  cursor: pointer;
+  font-family: simhei;
+}
+.dardree-home .fragrant .bottom {
+  width: 100%;
+  margin-top: 48px;
+}
+.dardree-home .fragrant .bottom div {
+  width: 100%;
+  height: 240px;
+  background: #f7f7f7 url(../images/c811f59224729dee2be3d7fe80f322b99c9d36dd_image-22790-1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.dardree-home .flowers {
+  float: left;
+  width: 30.48780488%;
+  margin-left: 4%;
+  margin-left: 56px;
+}
+.dardree-home .flowers div {
+  width: 100%;
+  height: 528px;
+  background: #f7f7f7 url(../images/76b1b11719d6e8c32c7d4fd5efe59830f17ee48a_image-23964-1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.dardree-home .dinner-candle {
+  float: right;
+  width: 30.48780488%;
+}
+.dardree-home .dinner-candle div {
+  width: 100%;
+  height: 528px;
+  background: #f7f7f7 url(../images/0ac46f7ffb4020bddcbb63d491bf2a7998a30ef4_image-22921-1.png) no-repeat left top;
+  background-size: 100% 100%;
+}
+.garden {
+  width: 100%;
+  height: 528px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.garden .fragrant {
+  width: 30.48780488%;
+  float: left;
+}
+.garden .fragrant .top {
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  border: 1px solid #999481;
+  position: relative;
+}
+.garden .fragrant .top p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-weight: 100;
+  color: #000;
+}
+.garden .fragrant .top i {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: #8c8c8c;
+  position: absolute;
+  top: 96px;
+  left: 168px;
+}
+.garden .fragrant .top span {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  font-weight: 400;
+  top: 110px;
+  left: 0;
+}
+.garden .fragrant .top .see {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #999481;
+  border-radius: 4px;
+  text-align: center;
+  color: #999481;
+  line-height: 32px;
+  font-size: 16px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  cursor: pointer;
+}
+.garden .fragrant .bottom {
+  margin-top: 48px;
+  width: 100%;
+}
+.garden .fragrant .bottom div {
+  width: 100%;
+  height: 240px;
+  background: url(../images/Apothicaire-4.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.garden .flowers {
+  float: left;
+  width: 30.48780488%;
+  margin-left: 56px;
+}
+.garden .flowers div {
+  width: 100%;
+  height: 528px;
+  background: url(../images/2e9a93_bbaf5860156c4a999d09075f70d8da49.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.garden .flowers p {
+  font-size: 2.4rem;
+  line-height: 7rem;
+}
+.garden .dinner-candle {
+  float: right;
+  width: 30.48780488%;
+}
+.garden .dinner-candle div {
+  width: 100%;
+  height: 528px;
+  background: url(../images/SECRET_DAPOTHICAIRE_BONBONNIERE.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.tea-room {
+  width: 100%;
+  height: 528px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.tea-room .fragrant {
+  float: left;
+  width: 30.48780488%;
+}
+.tea-room .fragrant .top {
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  border: 1px solid #999481;
+  position: relative;
+}
+.tea-room .fragrant .top p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-weight: 100;
+  color: #000;
+}
+.tea-room .fragrant .top i {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: #8c8c8c;
+  position: absolute;
+  top: 96px;
+  left: 168px;
+}
+.tea-room .fragrant .top span {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  font-weight: 400;
+  top: 110px;
+  left: 0;
+}
+.tea-room .fragrant .top .see {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #999481;
+  border-radius: 4px;
+  text-align: center;
+  color: #999481;
+  line-height: 32px;
+  font-size: 16px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  cursor: pointer;
+}
+.tea-room .fragrant .bottom {
+  margin-top: 48px;
+  width: 100%;
+}
+.tea-room .fragrant .bottom div {
+  width: 100%;
+  height: 240px;
+  background: #f7f7f7 url(../images/B20163-asian-secrets-scent-candles-gift-set-2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.tea-room .flowers {
+  float: left;
+  width: 30.48780488%;
+  margin-left: 4.66666667%;
+}
+.tea-room .flowers div {
+  width: 100%;
+  height: 528px;
+  background: #f7f7f7 url(../images/10357800-vetiver-perfume-diffuser-bali-indonesia.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.tea-room .dinner-candle {
+  float: right;
+  width: 30.48780488%;
+}
+.tea-room .dinner-candle div {
+  width: 100%;
+  height: 528px;
+  background: #f7f7f7 url(../images/10357200-poplar-scented-candle-aspen-united-states.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.tableware {
+  width: 100%;
+  height: 240px;
+  margin: 0 auto;
+  margin-top: 32px;
+  position: relative;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #999481;
+}
+.tableware .left {
+  float: left;
+  width: 30.48780488%;
+  height: 240px;
+  box-sizing: border-box;
+  border: 1px solid #999481;
+  position: relative;
+}
+.tableware .left p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-weight: 100;
+  color: #000;
+}
+.tableware .left i {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: #8c8c8c;
+  position: absolute;
+  top: 96px;
+  left: 168px;
+}
+.tableware .left span {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  font-weight: 400;
+  top: 110px;
+  left: 0;
+}
+.tableware .left .see {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #999481;
+  border-radius: 4px;
+  text-align: center;
+  color: #999481;
+  line-height: 32px;
+  font-size: 16px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  cursor: pointer;
+}
+.tableware .middle {
+  width: 30.48780488%;
+  height: 240px;
+  float: left;
+  margin-left: 56px;
+}
+.tableware .middle div {
+  width: 100%;
+  height: 240px;
+  background: url(../images/20225476_806819899477559_2330373152284082176_n.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.tableware .right {
+  width: 30.48780488%;
+  height: 240px;
+  float: right;
+}
+.tableware .right div {
+  width: 100%;
+  height: 240px;
+  float: right;
+  background: url(../images/20905030_730384453820572_6245879078365167616_n.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.description {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.description .left {
+  width: 30.48780488%;
+  float: left;
+}
+.description .left h3 {
+  font-size: 24px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 40px;
+}
+.description .left div {
+  width: 100%;
+  height: 240px;
+  background: url(../images/WYM_7395.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.description .left p {
+  display: block;
+  width: 96.5%;
+  text-align: left;
+  font-size: 16px;
+  color: #595959;
+  line-height: 28px;
+}
+.description .middle {
+  width: 30.48780488%;
+  float: left;
+  margin-left: 4.66666667%;
+}
+.description .middle h3 {
+  font-size: 24px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 40px;
+}
+.description .middle div {
+  width: 100%;
+  height: 240px;
+  background: url(../images/WYM_7325.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.description .middle p {
+  display: block;
+  width: 96.5%;
+  text-align: left;
+  font-size: 16px;
+  color: #595959;
+  line-height: 28px;
+}
+.description .right {
+  float: right;
+  width: 30.48780488%;
+}
+.description .right h3 {
+  font-size: 24px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 40px;
+}
+.description .right div {
+  width: 100%;
+  height: 240px;
+  background: url(../img/a13.png) no-repeat left top;
+}
+.description .right p {
+  display: block;
+  width: 96.5%;
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  line-height: 28px;
+}
+.foot {
+  width: 100%;
+  height: 279px;
+  background: #f7f7f7;
+  margin-top: 48px;
+  color: #999481;
+  font-size: 16px;
+}
+.foot .footer {
+  width: 91.11111111%;
+  height: 156px;
+  padding-top: 48px;
+  margin: 0 auto;
+  line-height: 2.6rem;
+  line-height: 26px;
+}
+.foot .footer .address {
+  width: 30.48780488%;
+  float: left;
+}
+.foot .footer .time {
+  float: left;
+  width: 30.48780488%;
+  margin-left: 56px;
+}
+.foot .footer .public-signal {
+  float: left;
+  margin-left: 56px;
+}
+.foot .footer .public-signal a {
+  color: #999481;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #999481;
+}
