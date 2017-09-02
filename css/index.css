@@ -98,9 +98,18 @@ body .daiZhi_first .container .row .leftbox .pad .inc .p2 {
 body .daiZhi_first .container .row .rightbox {
   padding-left: 28px;
 }
-body .daiZhi_first .container .row .rightbox img {
+body .daiZhi_first .container .row .rightbox .mobileImg {
+  width: 100%;
+}
+body .daiZhi_first .container .row .rightbox .mobileImg > img {
+  width: 100%;
   display: block;
+}
+body .daiZhi_first .container .row .rightbox .pcImg {
+  width: 100%;
   height: 560px;
+  display: block;
+  background-position: center center;
   background-size: cover;
 }
 body .daiZhiJiaJu {
