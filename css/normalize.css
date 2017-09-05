@@ -569,3 +569,22 @@ a:hover {
     color: #262626;
     text-decoration: none;
 }
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../images/Ipad/图标/font_404653_j5s08csb9nhr529/iconfont.eot');
+    src: url('../images/Ipad/图标/font_404653_j5s08csb9nhr529/iconfont.eot?#iefix') format('embedded-opentype'), 
+    url('../images/Ipad/图标/font_404653_j5s08csb9nhr529/iconfont.woff') format('woff'), 
+    url('../images/Ipad/图标/font_404653_j5s08csb9nhr529/iconfont.ttf') format('truetype'), 
+    url('../images/Ipad/图标/font_404653_j5s08csb9nhr529/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+

@@ -8,7 +8,7 @@ body .daiZhi_nav .container-fluid {
   background-color: #f4f4f4;
   color: #999481;
 }
-body .daiZhi_nav .container-fluid .navbar-header button {
+body .daiZhi_nav .container-fluid .navbar-header div {
   display: block;
 }
 body .daiZhi_nav .container-fluid .collapse {

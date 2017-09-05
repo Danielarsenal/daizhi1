@@ -1,0 +1,509 @@
+body {
+    a {
+        text-decoration: none;
+    }
+    .daiZhi_nav {
+        display: none;
+    }
+    .ipad_nav {
+        display: none;
+    }
+    .iphone_nav {
+        width: 100%;
+        height: 64px;
+        background: #f7f7f7;
+        .container {
+            height: 64px;
+            margin: 0 auto;
+            position: relative;
+            .iphone_nav_left {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 2px;
+                left: 15px;
+                transition: .03s all linear;
+                color: #999481;
+                z-index: 3;
+                i {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 40px;
+                }
+            }
+            #iphone_logo {
+                padding-left: 50px;
+                width: 125px;
+                height: 40px;
+                position: absolute;
+                top: -16px;
+                left: 15px;
+                embed {
+                    display: block;
+                    width: 125px;
+                }
+            }
+            .language {
+                color: #999481;
+                i {
+                    font-size: 40px;
+                    position: absolute;
+                    top: 5px;
+                    right: 15px;
+                }
+            }
+            .nav-active {
+                transform: rotate(90deg);
+                transition: .03s all linear;
+            }
+        }
+    }
+    .ipad_nav_content {
+        width: 240px;
+        height: 100%;
+        background: #f4f4f4;
+        position: fixed;
+        top: 0;
+        left: -240px;
+        z-index: 2;
+        ul {
+            list-style: none;
+            padding-left: 0;
+            li {
+                padding-left: 16px;
+                padding-right: 32px;
+                height: 80px;
+                line-height: 80px;
+                font-size: 24px;
+                border-bottom: 1px solid #999481;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    color: #999481;
+                    i {
+                        display: block;
+                        float: right;
+                        font-size: 32px;
+                    }
+                    .first {
+                        font-size: 26px;
+                    }
+                }
+            }
+            li:hover {
+                background-color: #999481;
+                a {
+                    color: #fff;
+                }
+            }
+            .active {
+                background-color: #999481;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .pc_logo {
+        display: none;
+    }
+    .content-wrapper {
+        width: 100%;
+        padding-top: 20px;
+        .daiZhi {
+            .container {
+                .row {
+                    margin: 0px;
+                    .pc {
+                        display: none;
+                    }
+                    .ipad {
+                        display: none;
+                    }
+                    .pad {
+                        width: 100%;
+                        text-align: center;
+                        .inc {
+                            color: #262626;
+                            p {
+                                font-size: 24px;
+                                text-align: center;
+                                margin-bottom: 0;
+                            }
+                            hr {
+                                margin-top: 8px;
+                                margin-bottom: 8px;
+                            }
+                            .p2 {
+                                font-size: 16px;
+                                margin-bottom: 16px;
+                            }
+                        }
+                    }
+                    .rightbox {
+                        div {
+                            .mobileImg {
+                                width: 100%;
+                            }
+                            .mobileImg>img {
+                                width: 100%;
+                                display: block;
+                            }
+                            .pcImg {
+                                width: 100%;
+                                height: 540px;
+                                display: block;
+                                background-position: center center;
+                                background-size: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .daiZhiJiaJu {
+            .container {
+                .head {
+                    text-align: center;
+                    .title {
+                        color: #262626;
+                        font-size: 24px;
+                        line-height: 72px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    hr {
+                        display: none;
+                    }
+                }
+                .row {
+                    margin: 0px;
+                    .pc {
+                        display: none;
+                    }
+                    .ipad {
+                        display: none;
+                    }
+                    .iphone {
+                        .left {
+                            div {
+                                .mobileImg {
+                                    width: 100%;
+                                }
+                                .mobileImg>img {
+                                    width: 100%;
+                                    display: block;
+                                }
+                                .pcImg {
+                                    width: 100%;
+                                    height: 560px;
+                                    display: block;
+                                    background-position: center center;
+                                    background-size: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+                .introduce {
+                    margin-bottom: 20px;
+                    margin: auto;
+                    position: relative;
+                    h3 {
+                        text-align: center;
+                        margin: 0px;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                    p {
+                        width: 96%;
+                        font-size: 12px;
+                    }
+                    div {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .daiZhi_flower {
+            .container {
+                .row {
+                    margin: 0px;
+                    .pc {
+                        display: none;
+                    }
+                    .ipad {
+                        display: none;
+                    }
+                    .iphone {
+                        .head {
+                            hr {
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                            p {
+                                font-size: 24px;
+                                line-height: 48px;
+                                text-align: center;
+                            }
+                        }
+                        .topLeft,
+                        .topRight,
+                        .downLeft,
+                        .downRight {
+                            padding-left: 0;
+                            padding-right: 0;
+                            a {
+                                display: block;
+                                .kuang {
+                                    width: 100%;
+                                    overflow: hidden;
+                                    .mobileImg {
+                                        width: 100%;
+                                    }
+                                    .mobileImg>img {
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    .pcImg {
+                                        width: 100%;
+                                        display: block;
+                                        background-position: center center;
+                                        background-size: cover;
+                                        border: 1px solid #999481;
+                                    }
+                                }
+                                h3 {
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #262626;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    margin-bottom: 4px;
+                                }
+                            }
+                        }
+                        .topLeft {
+                            padding-right: 12px;
+                            border-right: 1px solid #999481;
+                        }
+                        .topRight {
+                            padding-left: 12px;
+                        }
+                        .downLeft {
+                            padding-top: 12px;
+                            padding-right: 12px;
+                            border-right: 1px solid #999481;
+                            border-top: 1px solid #999481;
+                        }
+                        .downRight {
+                            padding-top: 12px;
+                            padding-left: 12px;
+                            border-top: 1px solid #999481;
+                        }
+                    }
+                }
+            }
+        }
+        .daiZhiChaShi {
+            .container {
+                .pc_head {
+                    display: none;
+                }
+                .row {
+                    margin: 0px;
+                    .ipad_head {
+                        text-align: center;
+                        hr {
+                            margin-bottom: 0;
+                        }
+                        .title {
+                            color: #262626;
+                            font-size: 24px;
+                            line-height: 72px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .pc {
+                        display: none;
+                    }
+                    .ipad {
+                        display: none;
+                    }
+                    .iphone {
+                        .left {
+                            div {
+                                .mobileImg {
+                                    width: 100%;
+                                }
+                                .mobileImg>img {
+                                    width: 100%;
+                                    display: block;
+                                }
+                                .pcImg {
+                                    width: 100%;
+                                    height: 560px;
+                                    display: block;
+                                    background-position: center center;
+                                    background-size: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+                .introduce {
+                    margin-bottom: 20px;
+                    position: relative;
+                    h3 {
+                        text-align: center;
+                        margin: 0px;
+                        font-size: 24px;
+                        line-height: 24px;
+                        margin-top: 8px;
+                    }
+                    p {
+                        width: 96%;
+                        margin: auto;
+                        font-size: 12px;
+                    }
+                    div {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .other {
+            .container {
+                hr {
+                    display: none;
+                }
+                .row {
+                    margin: 0px;
+                    hr {
+                        display: block;
+                        margin-top: 0px;
+                        margin-bottom: 0;
+                    }
+                    .pc {
+                        display: none;
+                    }
+                    .ipad {
+                        display: none;
+                    }
+                    .iphone {
+                        .topLeft,
+                        .topMid,
+                        .topRight,
+                        {
+                            a {
+                                display: block;
+                                padding-top: 12px;
+                                margin-bottom: 14px;
+                                .kuang {
+                                    width: 100%;
+                                    height: 196px;
+                                    background: url('../images/iphone/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
+                                    background-size: cover;
+                                    border: 1px solid #8c8c8c;
+                                    box-sizing: border-box;
+                                }
+                                h3 {
+                                    text-align: center;
+                                    margin: 0px;
+                                    font-size: 16px;
+                                    line-height: 28px;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                        .topMid {
+                            a {
+                                .kuang {
+                                    background: url('../images/iphone/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
+                                    background-size: cover;
+                                }
+                            }
+                        }
+                        .topRight {
+                            border-bottom: none;
+                            margin-bottom: 20px;
+                            a {
+                                .kuang {
+                                    background: url('../images/iphone/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
+                                    background-size: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: #f4f4f4;
+        .pc {
+            display: none;
+        }
+        .ipad {
+            display: none;
+        }
+        .iphone {
+            .container {
+                padding-top: 16px;
+                .row {
+                    margin: 0px;
+                    padding-bottom: 40px;
+                    .footLeft,
+                    .footMid,
+                    .footRight {
+                        width: 100%;
+                        padding-left: 0;
+                        padding-right: 28px;
+                        p {
+                            font-size: 10px;
+                            line-height: 28px;
+                            color: #999481;
+                            margin-bottom: 0;
+                        }
+                        a {
+                            font-size: 10px;
+                            line-height: 28px;
+                            color: #999481;
+                            text-decoration: none;
+                        }
+                        a:active {
+                            text-decoration: none;
+                        }
+                        .weixin {
+                            position: relative;
+                        }
+                        .erweima {
+                            width: 80px;
+                            height: 80px;
+                            background: url('../images/erweima.jpg') no-repeat 0px 0px;
+                            background-size: cover;
+                            position: absolute;
+                            top: 0px;
+                            left: 180px;
+                            display: none;
+                        }
+                        .weixin:hover {
+                            .erweima {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

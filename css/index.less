@@ -1,5 +1,8 @@
        body {
-           min-width: 1200px;
+           min-width: 1440px;
+           a {
+               text-decoration: none;
+           }
            .daiZhi_nav {
                overflow: hidden;
                .container-fluid {
@@ -17,6 +20,10 @@
                                >a {
                                    font-size: 18px;
                                    line-height: 50px;
+                                   transition: color .3s ease-in;
+                               }
+                               >a:hover {
+                                   color: #fff;
                                }
                            }
                            >li:first-of-type {
@@ -38,17 +45,27 @@
                            margin-top: 23px;
                        }
                        .navbar-right {
-                           embed {
+                           i {
                                display: block;
-                               width: 40px;
+                               font-size: 40px;
                                float: right;
-                               margin-top: 20px;
+                               margin-top: 10px;
+                               cursor: pointer;
                            }
                        }
                    }
                }
            }
-           .pc {
+           .ipad_nav {
+               display: none;
+           }
+           .iphone_nav {
+               display: none;
+           }
+           .ipad_nav_content {
+               display: none;
+           }
+           .pc_logo {
                .logo {
                    overflow: hidden;
                    margin: 32px 0px;
@@ -69,150 +86,46 @@
                    }
                }
            }
-           .daiZhi_first {
-               overflow: hidden;
-               .container {
-                   .row {
-                       .leftbox {
-                           height: 560px;
-                           padding: 0 28px 0 15px;
-                           .pad {
-                               height: 100%;
-                               background-color: #f4f4f4;
-                               position: relative;
-                               .inc {
-                                   height: 200px;
-                                   position: absolute;
-                                   left: 0;
-                                   top: 0;
-                                   right: 0;
-                                   bottom: 0;
-                                   margin: auto;
-                                   color: #262626;
-                                   p {
-                                       font-size: 64px;
-                                       text-align: center;
-                                   }
-                                   .p2 {
-                                       font-size: 24px;
-                                   }
-                               }
+           .content-wrapper {
+               .daiZhi {
+                   overflow: hidden;
+                   .container {
+                       .row {
+                           .ipad {
+                               display: none;
                            }
-                       }
-                       .rightbox {
-                           padding-left: 28px;
-                           .mobileImg {
-                               width: 100%;
+                           .iphone {
+                               display: none;
                            }
-                           .mobileImg>img {
-                               width: 100%;
-                               display: block;
-                           }
-                           .pcImg {
-                               width: 100%;
-                               height: 560px;
-                               display: block;
-                               background-position: center center;
-                               background-size: cover;
-                           }
-                       }
-                   }
-               }
-           }
-           .daiZhiJiaJu {
-               overflow: hidden;
-               .container {
-                   .head {
-                       padding-left: 154px;
-                       padding-top: 50px;
-                       position: relative;
-                       height: 142px;
-                       .title {
-                           color: #262626;
-                           position: absolute;
-                           left: 0;
-                           top: 26px;
-                           font-size: 32px;
-                           margin-bottom: 0;
-                       }
-                   }
-                   .row {
-                       .left {
-                           padding-right: 28px;
-                           div {
-                               .mobileImg {
-                                   width: 100%;
-                               }
-                               .mobileImg>img {
-                                   width: 100%;
-                                   display: block;
-                               }
-                               .pcImg {
-                                   width: 100%;
+                           .pc {
+                               .leftbox {
                                    height: 560px;
-                                   display: block;
-                                   background-position: center center;
-                                   background-size: cover;
+                                   padding: 0 28px 0 15px;
+                                   .pad {
+                                       height: 100%;
+                                       background-color: #f4f4f4;
+                                       position: relative;
+                                       .inc {
+                                           height: 200px;
+                                           position: absolute;
+                                           left: 0;
+                                           top: 0;
+                                           right: 0;
+                                           bottom: 0;
+                                           margin: auto;
+                                           color: #262626;
+                                           p {
+                                               font-size: 64px;
+                                               text-align: center;
+                                           }
+                                           .p2 {
+                                               font-size: 24px;
+                                           }
+                                       }
+                                   }
                                }
-                           }
-                       }
-                       .right {
-                           padding-left: 28px;
-                           a {
-                               width: 100%;
-                               height: 560px;
-                               display: block;
-                               background-image: url("../Image/PC/主页/黛芷家居/WYM_7534.jpg");
-                               background-position: center center;
-                               background-size: cover;
-                           }
-                       }
-                   }
-                   .introduce {
-                       margin-bottom: 60px;
-                       position: relative;
-                       h3 {
-                           margin: 0px;
-                           font-size: 32px;
-                           line-height: 64px;
-                       }
-                       p {
-                           width: 800px;
-                           font-size: 16px;
-                           line-height: 24px;
-                       }
-                       button {
-                           position: absolute;
-                           width: 120px;
-                           height: 48px;
-                           right: 0;
-                           top: 50px;
-                           color: #b0ad9f;
-                           font-size: 22px;
-                       }
-                   }
-               }
-           }
-           .daiZhi_flower {
-               overflow: hidden;
-               background-color: #f4f4f4;
-               .container {
-                   padding: 0;
-                   .row {
-                       margin-top: 80px;
-                       height: 480px;
-                       .topLeft,
-                       .topRight,
-                       .downLeft,
-                       .downMid,
-                       .downRight {
-                           padding-left: 30px;
-                           padding-right: 30px;
-                           a {
-                               display: block;
-                               margin-bottom: 64px;
-                               .kuang {
-                                   height: 400px;
+                               .rightbox {
+                                   padding-left: 28px;
                                    .mobileImg {
                                        width: 100%;
                                    }
@@ -222,328 +135,501 @@
                                    }
                                    .pcImg {
                                        width: 100%;
-                                       height: 400px;
+                                       height: 560px;
                                        display: block;
                                        background-position: center center;
                                        background-size: cover;
-                                       border: 1px solid #999481;
                                    }
-                               }
-                               h3 {
-                                   margin-top: 0;
-                                   margin-bottom: 0;
-                                   font-size: 32px;
-                                   line-height: 52px;
-                                   color: #262626;
-                               }
-                               p {
-                                   font-size: 24px;
-                                   margin: 0px;
                                }
                            }
                        }
-                       .topMid {
-                           height: 100%;
-                           a {
-                               margin-bottom: 64px;
-                               .kuang {
-                                   border: 1px solid #999481;
-                                   position: relative;
-                                   width: 100%;
-                                   height: 100%;
-                                   margin: 0 auto;
-                                   box-sizing: border-box;
+                   }
+               }
+               .daiZhiJiaJu {
+                   overflow: hidden;
+                   .container {
+                       .head {
+                           padding-left: 154px;
+                           padding-top: 50px;
+                           position: relative;
+                           height: 142px;
+                           .title {
+                               color: #262626;
+                               position: absolute;
+                               left: 0;
+                               top: 26px;
+                               font-size: 32px;
+                               margin-bottom: 0;
+                               letter-spacing: 2px;
+                           }
+                       }
+                       .row {
+                           .pc {
+                               .left {
+                                   padding-right: 28px;
                                    div {
-                                       width: 280px;
+                                       .mobileImg {
+                                           width: 100%;
+                                       }
+                                       .mobileImg>img {
+                                           width: 100%;
+                                           display: block;
+                                       }
+                                       .pcImg {
+                                           width: 100%;
+                                           height: 560px;
+                                           display: block;
+                                           background-position: center center;
+                                           background-size: cover;
+                                       }
+                                   }
+                               }
+                               .right {
+                                   padding-left: 28px;
+                                   div {
+                                       width: 100%;
+                                       height: 560px;
+                                       display: block;
+                                       background-image: url("../images/PC/主页/黛芷家居/WYM_7534.jpg");
+                                       background-position: center center;
+                                       background-size: cover;
+                                   }
+                               }
+                           }
+                           .ipad {
+                               display: none;
+                           }
+                           .iphone {
+                               display: none;
+                           }
+                       }
+                       .introduce {
+                           margin-bottom: 60px;
+                           position: relative;
+                           h3 {
+                               margin: 0px;
+                               font-size: 32px;
+                               line-height: 48px;
+                               padding-top: 8px;
+                           }
+                           p {
+                               width: 800px;
+                               font-size: 16px;
+                               line-height: 24px;
+                               margin-bottom: 0;
+                           }
+                           div {
+                               position: absolute;
+                               width: 120px;
+                               height: 48px;
+                               right: 0;
+                               top: 56px;
+                               color: #999481;
+                               font-size: 22px;
+                               border-radius: 2px;
+                               line-height: 36px;
+                           }
+                           div:hover {
+                               color: #fff;
+                               background-color: #999481;
+                           }
+                       }
+                   }
+               }
+               .daiZhi_flower {
+                   overflow: hidden;
+                   background-color: #f4f4f4;
+                   .container {
+                       padding: 0;
+                       .row {
+                           margin-top: 80px;
+                           height: 480px;
+                           .ipad {
+                               display: none;
+                           }
+                           .iphone {
+                               display: none;
+                           }
+                           .pc {
+                               height: 480px;
+                               .topLeft,
+                               .topRight,
+                               .downLeft,
+                               .downMid,
+                               .downRight {
+                                   padding-left: 30px;
+                                   padding-right: 30px;
+                                   margin-bottom: 64px;
+                                   .kuang {
                                        height: 400px;
-                                       position: absolute;
-                                       left: 50%;
-                                       top: 80px;
-                                       margin-left: -140px;
+                                       .mobileImg {
+                                           width: 100%;
+                                       }
+                                       .mobileImg>img {
+                                           width: 100%;
+                                           display: block;
+                                       }
+                                       .pcImg {
+                                           width: 100%;
+                                           height: 400px;
+                                           display: block;
+                                           background-position: center center;
+                                           background-size: cover;
+                                           border: 1px solid #999481;
+                                       }
+                                   }
+                                   h3 {
+                                       margin-top: 16px;
+                                       margin-bottom: 0;
+                                       font-size: 32px;
+                                       line-height: 40px;
+                                       color: #262626;
+                                   }
+                                   p {
+                                       font-size: 24px;
+                                       line-height: 24px;
+                                       margin: 0px;
+                                   }
+                               }
+                               .topMid {
+                                   height: 100%;
+                                   div {
+                                       height: 100%;
+                                       margin-bottom: 64px;
+                                       .kuang {
+                                           border: 1px solid #999481;
+                                           position: relative;
+                                           width: 100%;
+                                           height: 100%;
+                                           margin: 0 auto;
+                                           box-sizing: border-box;
+                                           div {
+                                               width: 280px;
+                                               height: 400px;
+                                               position: absolute;
+                                               left: 50%;
+                                               top: 80px;
+                                               margin-left: -140px;
+                                               p {
+                                                   font-size: 64px;
+                                                   text-align: center;
+                                               }
+                                               .p2 {
+                                                   font-size: 32px;
+                                               }
+                                               div {
+                                                   position: absolute;
+                                                   width: 120px;
+                                                   height: 48px;
+                                                   right: 0;
+                                                   top: 230px;
+                                                   left: 50%;
+                                                   margin-left: -60px;
+                                                   color: #999481;
+                                                   font-size: 22px;
+                                                   border-radius: 2px;
+                                                   line-height: 36px;
+                                                   background-color: #f4f4f4;
+                                               }
+                                               div:hover {
+                                                   color: #fff;
+                                                   background-color: #999481;
+                                               }
+                                           }
+                                       }
+                                   }
+                               }
+                               .topRight {
+                                   a {
+                                       .kuang {
+                                           background: url('../Image/PC/主页/黛芷花园/hualan1.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
+                                       }
+                                   }
+                               }
+                               .downLeft {
+                                   a {
+                                       .kuang {
+                                           background: url('../Image/PC/主页/黛芷花园/huahe 3.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
+                                       }
+                                   }
+                               }
+                               .downMid {
+                                   padding: 0 15px;
+                                   a {
+                                       .kuang {
+                                           background: url('../Image/PC/主页/黛芷花园/30.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
+                                       }
+                                   }
+                               }
+                               .downRight {
+                                   a {
+                                       .kuang {
+                                           background: url('../Image/PC/主页/黛芷花园/20.JPG') no-repeat 0px 0px;
+                                           background-size: cover;
+                                       }
+                                   }
+                               }
+                           }
+                       }
+                       .down {
+                           margin-top: 64px;
+                           height: 480px;
+                           .downLeft {
+                               div {
+                                   width: 400px;
+                                   float: left;
+                                   .kuang {
+                                       border: 1px solid #8c8c8c;
+                                       position: relative;
+                                       height: 400px;
+                                       width: 400px;
+                                       margin: 0;
+                                       box-sizing: border-box;
+                                       overflow: hidden;
+                                       position: relative;
+                                       a {
+                                           display: block;
+                                           width: 100%;
+                                           height: 100%;
+                                           img {
+                                               width: 400px;
+                                               position: absolute;
+                                               top: -135px;
+                                               left: 0px;
+                                           }
+                                       }
+                                   }
+                                   h3 {
+                                       margin-top: 0;
+                                       margin-bottom: 0;
+                                       font-size: 32px;
+                                       line-height: 52px;
+                                       color: #262626;
+                                   }
+                                   p {
+                                       font-size: 24px;
+                                       margin: 0px;
+                                   }
+                               }
+                           }
+                           .downMid {
+                               div {
+                                   width: 400px;
+                                   margin: 0 auto;
+                                   .kuang {
+                                       border: 1px solid #8c8c8c;
+                                       position: relative;
+                                       height: 400px;
+                                       width: 400px;
+                                       margin: 0;
+                                       box-sizing: border-box;
+                                       overflow: hidden;
+                                       position: relative;
+                                       a {
+                                           display: block;
+                                           width: 100%;
+                                           height: 100%;
+                                           img {
+                                               width: 400px;
+                                               position: absolute;
+                                               top: -80px;
+                                               left: 0px;
+                                           }
+                                       }
+                                   }
+                                   h3 {
+                                       margin-top: 0;
+                                       margin-bottom: 0;
+                                       font-size: 32px;
+                                       line-height: 52px;
+                                       color: #262626;
+                                   }
+                                   p {
+                                       font-size: 24px;
+                                       margin: 0px;
+                                   }
+                               }
+                           }
+                           .downRight {
+                               div {
+                                   width: 400px;
+                                   float: right;
+                                   .kuang {
+                                       border: 1px solid #8c8c8c;
+                                       position: relative;
+                                       height: 400px;
+                                       width: 400px;
+                                       margin: 0;
+                                       box-sizing: border-box;
+                                       overflow: hidden;
+                                       position: relative;
+                                       a {
+                                           display: block;
+                                           width: 100%;
+                                           height: 100%;
+                                           img {
+                                               width: 400px;
+                                               position: absolute;
+                                               top: -80px;
+                                               left: 0px;
+                                           }
+                                       }
+                                   }
+                                   h3 {
+                                       margin-top: 0;
+                                       margin-bottom: 0;
+                                       font-size: 32px;
+                                       line-height: 52px;
+                                       color: #262626;
+                                   }
+                                   p {
+                                       font-size: 24px;
+                                       margin: 0px;
+                                   }
+                               }
+                           }
+                       }
+                   }
+               }
+               .daiZhiChaShi {
+                   .container {
+                       .pc_head {
+                           padding-right: 154px;
+                           padding-top: 50px;
+                           position: relative;
+                           height: 142px;
+                           .title {
+                               color: #262626;
+                               position: absolute;
+                               right: 0;
+                               top: 26px;
+                               font-size: 32px;
+                               margin-bottom: 0;
+                           }
+                           h3 {
+                               letter-spacing: 2px;
+                           }
+                       }
+                       .row {
+                           .ipad_head {
+                               display: none;
+                           }
+                           .iphone {
+                               display: none;
+                           }
+                           .ipad {
+                               display: none;
+                           }
+                           .pc {
+                               .leftbox {
+                                   div {
+                                       float: left;
+                                       width: 850px;
+                                       height: 560px;
+                                       background-size: cover;
+                                   }
+                               }
+                               .rightbox {
+                                   div {
+                                       float: right;
+                                       width: 380px;
+                                       height: 560px;
+                                       background-size: cover;
+                                   }
+                               }
+                           }
+                       }
+                       .introduce {
+                           margin-top: 15px;
+                           margin-bottom: 32px;
+                           position: relative;
+                           h3 {
+                               margin: 0px;
+                               font-size: 32px;
+                               line-height: 32px;
+                           }
+                           p {
+                               width: 700px;
+                               font-size: 16px;
+                               line-height: 24px;
+                           }
+                           div {
+                               position: absolute;
+                               width: 120px;
+                               height: 48px;
+                               right: 0;
+                               top: 24px;
+                               color: #999481;
+                               font-size: 22px;
+                               border-radius: 2px;
+                               line-height: 36px;
+                           }
+                           div:hover {
+                               color: #fff;
+                               background-color: #999481;
+                           }
+                       }
+                   }
+               }
+               .other {
+                   overflow: hidden;
+                   .container {
+                       .row {
+                           padding-top: 10px;
+                           hr {
+                               display: none;
+                           }
+                           height: 350px;
+                           .ipad {
+                               display: none;
+                           }
+                           .iphone {
+                               display: none;
+                           }
+                           .pc {
+                               .topLeft,
+                               .topMid,
+                               .topRight,
+                               {
+                                   div {
+                                       margin-bottom: 64px;
+                                       .kuang {
+                                           height: 240px;
+                                           background: url('../images/PC/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
+                                           box-sizing: border-box;
+                                           margin-bottom: 0;
+                                       }
+                                       h3 {
+                                           margin-top: 8px;
+                                           margin-bottom: 8px;
+                                           font-size: 24px;
+                                           color: #292929;
+                                       }
                                        p {
-                                           font-size: 64px;
-                                           text-align: center;
-                                       }
-                                       .p2 {
-                                           font-size: 32px;
-                                       }
-                                       button {
-                                           background-color: transparent;
-                                           width: 120px;
-                                           height: 48px;
-                                           color: #b0ad9f;
-                                           font-size: 22px;
-                                           position: absolute;
-                                           top: 230px;
-                                           left: 50%;
-                                           margin-left: -60px;
+                                           font-size: 16px;
+                                           line-height: 26px;
                                        }
                                    }
                                }
-                           }
-                       }
-                       .topRight {
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/黛芷花园/hualan1.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
-                               }
-                           }
-                       }
-                       .downLeft {
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/黛芷花园/huahe 3.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
-                               }
-                           }
-                       }
-                       .downMid {
-                           padding: 0 15px;
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/黛芷花园/30.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
-                               }
-                           }
-                       }
-                       .downRight {
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/黛芷花园/20.JPG') no-repeat 0px 0px;
-                                   background-size: cover;
-                               }
-                           }
-                       }
-                   }
-                   .down {
-                       margin-top: 64px;
-                       height: 480px;
-                       .downLeft {
-                           div {
-                               width: 400px;
-                               float: left;
-                               .kuang {
-                                   border: 1px solid #8c8c8c;
-                                   position: relative;
-                                   height: 400px;
-                                   width: 400px;
-                                   margin: 0;
-                                   box-sizing: border-box;
-                                   overflow: hidden;
-                                   position: relative;
-                                   a {
-                                       display: block;
-                                       width: 100%;
-                                       height: 100%;
-                                       img {
-                                           width: 400px;
-                                           position: absolute;
-                                           top: -135px;
-                                           left: 0px;
+                               .topMid {
+                                   div {
+                                       .kuang {
+                                           background: url('../images/PC/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
                                        }
                                    }
                                }
-                               h3 {
-                                   margin-top: 0;
-                                   margin-bottom: 0;
-                                   font-size: 32px;
-                                   line-height: 52px;
-                                   color: #262626;
-                               }
-                               p {
-                                   font-size: 24px;
-                                   margin: 0px;
-                               }
-                           }
-                       }
-                       .downMid {
-                           div {
-                               width: 400px;
-                               margin: 0 auto;
-                               .kuang {
-                                   border: 1px solid #8c8c8c;
-                                   position: relative;
-                                   height: 400px;
-                                   width: 400px;
-                                   margin: 0;
-                                   box-sizing: border-box;
-                                   overflow: hidden;
-                                   position: relative;
-                                   a {
-                                       display: block;
-                                       width: 100%;
-                                       height: 100%;
-                                       img {
-                                           width: 400px;
-                                           position: absolute;
-                                           top: -80px;
-                                           left: 0px;
+                               .topRight {
+                                   div {
+                                       .kuang {
+                                           background: url('../images/PC/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
+                                           background-size: cover;
                                        }
                                    }
-                               }
-                               h3 {
-                                   margin-top: 0;
-                                   margin-bottom: 0;
-                                   font-size: 32px;
-                                   line-height: 52px;
-                                   color: #262626;
-                               }
-                               p {
-                                   font-size: 24px;
-                                   margin: 0px;
-                               }
-                           }
-                       }
-                       .downRight {
-                           div {
-                               width: 400px;
-                               float: right;
-                               .kuang {
-                                   border: 1px solid #8c8c8c;
-                                   position: relative;
-                                   height: 400px;
-                                   width: 400px;
-                                   margin: 0;
-                                   box-sizing: border-box;
-                                   overflow: hidden;
-                                   position: relative;
-                                   a {
-                                       display: block;
-                                       width: 100%;
-                                       height: 100%;
-                                       img {
-                                           width: 400px;
-                                           position: absolute;
-                                           top: -80px;
-                                           left: 0px;
-                                       }
-                                   }
-                               }
-                               h3 {
-                                   margin-top: 0;
-                                   margin-bottom: 0;
-                                   font-size: 32px;
-                                   line-height: 52px;
-                                   color: #262626;
-                               }
-                               p {
-                                   font-size: 24px;
-                                   margin: 0px;
-                               }
-                           }
-                       }
-                   }
-               }
-           }
-           .daiZhiChaShi {
-               overflow: hidden;
-               .container {
-                   .head {
-                       padding-right: 154px;
-                       padding-top: 50px;
-                       position: relative;
-                       height: 142px;
-                       .title {
-                           color: #262626;
-                           position: absolute;
-                           right: 0;
-                           top: 26px;
-                           font-size: 32px;
-                           margin-bottom: 0;
-                       }
-                   }
-                   .row {
-                       .leftbox {
-                           a {
-                               width: 100%;
-                               height: 560px;
-                               display: block;
-                               background-image: url("../Image/PC/主页/黛芷茶室/2.下午茶.jpg");
-                               background-position: center center;
-                               background-size: cover;
-                           }
-                       }
-                       .rightbox {
-                           a {
-                               width: 100%;
-                               height: 560px;
-                               display: block;
-                               background-image: url("../Image/PC/主页/黛芷茶室/法国马卡龙.jpg");
-                               background-position: center center;
-                               background-size: cover;
-                           }
-                       }
-                   }
-                   .introduce {
-                       margin-top: 15px;
-                       margin-bottom: 60px;
-                       position: relative;
-                       h3 {
-                           margin: 0px;
-                           font-size: 32px;
-                           line-height: 64px;
-                           margin-bottom: 5px;
-                       }
-                       p {
-                           font-size: 16px;
-                           line-height: 24px;
-                       }
-                       button {
-                           position: absolute;
-                           width: 120px;
-                           height: 48px;
-                           right: 0;
-                           top: 60px;
-                           color: #b0ad9f;
-                           font-size: 22px;
-                       }
-                   }
-               }
-           }
-           .other {
-               overflow: hidden;
-               .container {
-                   padding: 0;
-                   .row {
-                       height: 350px;
-                       .topLeft,
-                       .topMid,
-                       .topRight,
-                       {
-                           a {
-                               display: block;
-                               margin-bottom: 64px;
-                               .kuang {
-                                   height: 240px;
-                                   background: url('../Image/PC/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
-                                   border: 1px solid #8c8c8c;
-                                   box-sizing: border-box;
-                               }
-                               h3 {
-                                   font-size: 24px;
-                                   color: #292929;
-                               }
-                               p {
-                                   font-size: 16px;
-                                   line-height: 26px;
-                               }
-                           }
-                       }
-                       .topMid {
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
-                               }
-                           }
-                       }
-                       .topRight {
-                           a {
-                               .kuang {
-                                   background: url('../Image/PC/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
-                                   background-size: cover;
                                }
                            }
                        }
@@ -554,30 +640,62 @@
                overflow: hidden;
                background-color: #f4f4f4;
                padding-top: 38px;
-               .container {
-                   .row {
-                       padding-bottom: 100px;
-                       .footLeft,
-                       .footMid,
-                       .footRight {
-                           padding-left: 0;
-                           padding-right: 28px;
-                           p {
-                               font-size: 16px;
-                               line-height: 28px;
-                               color: #999481;
+               .ipad {
+                   display: none;
+               }
+               .iphone {
+                   display: none;
+               }
+               .pc {
+                   .container {
+                       .row {
+                           padding-bottom: 100px;
+                           .footLeft,
+                           .footMid,
+                           {
+                               padding-left: 0;
+                               padding-right: 28px;
+                               p {
+                                   font-size: 16px;
+                                   line-height: 28px;
+                                   color: #999481;
+                               }
                            }
-                       }
-                       .footMid {
-                           padding: 0 70px;
-                       }
-                       .footRight {
-                           padding: 0 100px;
+                           .footMid {
+                               padding-left: 15px;
+                           }
+                           .footRight {
+                               padding-left: 15px;
+                               a {
+                                   font-size: 16px;
+                                   line-height: 28px;
+                                   color: #999481;
+                                   text-decoration: none;
+                               }
+                               a:active {
+                                   text-decoration: none;
+                               }
+                               .weixin {
+                                   position: relative;
+                               }
+                               .erweima {
+                                   width: 80px;
+                                   height: 80px;
+                                   background: url('../images/erweima.jpg') no-repeat 0px 0px;
+                                   background-size: cover;
+                                   position: absolute;
+                                   top: 0px;
+                                   left: 180px;
+                                   display: none;
+                               }
+                               .weixin:hover {
+                                   .erweima {
+                                       display: block;
+                                   }
+                               }
+                           }
                        }
                    }
                }
-           }
-           #content {
-               display: none;
            }
        }

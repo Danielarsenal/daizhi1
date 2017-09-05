@@ -1,423 +1,63 @@
-body .daiZhi_nav .container-fluid {
-  background-color: #f4f4f4;
-  color: #999481;
+body a {
+  text-decoration: none;
 }
-body .daiZhi_nav .container-fluid .navbar-header button {
-  display: block;
-}
-body .daiZhi_nav .container-fluid .collapse {
-  padding-left: 0;
-}
-body .daiZhi_nav .container-fluid .collapse.navbar {
-  margin-bottom: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav {
-  padding-left: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li {
-  padding: 0px 5px;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li > a {
-  font-size: 18px;
-  line-height: 50px;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type {
-  padding-left: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li:first-of-type a {
-  padding-left: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] {
-  padding-left: 0;
-  padding-right: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-nav > li[class="last"] a {
-  padding-left: 0;
-  padding-right: 0;
-}
-body .daiZhi_nav .container-fluid .collapse .navbar-toggle {
-  margin-top: 23px;
-}
-body .pc {
+body .daiZhi_nav {
   display: none;
 }
-body .daiZhi_first .container .row .pad {
-  width: 100%;
-  text-align: center;
-}
-body .daiZhi_first .container .row .pad .inc {
-  color: #262626;
-}
-body .daiZhi_first .container .row .pad .inc p {
-  font-size: 36px;
-  text-align: center;
-}
-body .daiZhi_first .container .row .pad .inc .p2 {
-  font-size: 22px;
-}
-body .daiZhi_first .container .row .rightbox div .mobileImg {
-  width: 100%;
-}
-body .daiZhi_first .container .row .rightbox div .mobileImg > img {
-  width: 100%;
-  display: block;
-}
-body .daiZhi_first .container .row .rightbox div .pcImg {
-  width: 100%;
-  height: 540px;
-  display: block;
-  background-position: center center;
-  background-size: cover;
-}
-body .daiZhiJiaJu .container .head {
-  text-align: center;
-}
-body .daiZhiJiaJu .container .head .title {
-  color: #262626;
-  font-size: 32px;
-  line-height: 94px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-body .daiZhiJiaJu .container .row .left div .mobileImg {
-  width: 100%;
-}
-body .daiZhiJiaJu .container .row .left div .mobileImg > img {
-  width: 100%;
-  display: block;
-}
-body .daiZhiJiaJu .container .row .left div .pcImg {
-  width: 100%;
-  height: 560px;
-  display: block;
-  background-position: center center;
-  background-size: cover;
-}
-body .daiZhiJiaJu .container .introduce {
-  margin-bottom: 60px;
-  position: relative;
-}
-body .daiZhiJiaJu .container .introduce h3 {
-  margin: 0px;
-  font-size: 32px;
-  line-height: 64px;
-}
-body .daiZhiJiaJu .container .introduce p {
-  width: 500px;
-  font-size: 14px;
-  line-height: 24px;
-}
-body .daiZhiJiaJu .container .introduce button {
-  display: none;
-}
-body .daiZhi_flower .container .row .head p {
-  font-size: 36px;
-  line-height: 80px;
-  text-align: center;
-}
-body .daiZhi_flower .container .row .topLeft a,
-body .daiZhi_flower .container .row .topRight a,
-body .daiZhi_flower .container .row .downLeft a,
-body .daiZhi_flower .container .row .downMid a,
-body .daiZhi_flower .container .row .downRight a {
-  display: block;
-  padding-bottom: 32px;
-}
-body .daiZhi_flower .container .row .topLeft a .kuang,
-body .daiZhi_flower .container .row .topRight a .kuang,
-body .daiZhi_flower .container .row .downLeft a .kuang,
-body .daiZhi_flower .container .row .downMid a .kuang,
-body .daiZhi_flower .container .row .downRight a .kuang {
-  height: 400px;
-}
-body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg,
-body .daiZhi_flower .container .row .topRight a .kuang .mobileImg,
-body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg,
-body .daiZhi_flower .container .row .downMid a .kuang .mobileImg,
-body .daiZhi_flower .container .row .downRight a .kuang .mobileImg {
-  width: 100%;
-}
-body .daiZhi_flower .container .row .topLeft a .kuang .mobileImg > img,
-body .daiZhi_flower .container .row .topRight a .kuang .mobileImg > img,
-body .daiZhi_flower .container .row .downLeft a .kuang .mobileImg > img,
-body .daiZhi_flower .container .row .downMid a .kuang .mobileImg > img,
-body .daiZhi_flower .container .row .downRight a .kuang .mobileImg > img {
-  width: 100%;
-  display: block;
-}
-body .daiZhi_flower .container .row .topLeft a .kuang .pcImg,
-body .daiZhi_flower .container .row .topRight a .kuang .pcImg,
-body .daiZhi_flower .container .row .downLeft a .kuang .pcImg,
-body .daiZhi_flower .container .row .downMid a .kuang .pcImg,
-body .daiZhi_flower .container .row .downRight a .kuang .pcImg {
-  width: 100%;
-  height: 400px;
-  display: block;
-  background-position: center center;
-  background-size: cover;
-  border: 1px solid #999481;
-}
-body .daiZhi_flower .container .row .topLeft a h3,
-body .daiZhi_flower .container .row .topRight a h3,
-body .daiZhi_flower .container .row .downLeft a h3,
-body .daiZhi_flower .container .row .downMid a h3,
-body .daiZhi_flower .container .row .downRight a h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
-  line-height: 52px;
-  color: #262626;
-}
-body .daiZhi_flower .container .row .topLeft a p,
-body .daiZhi_flower .container .row .topRight a p,
-body .daiZhi_flower .container .row .downLeft a p,
-body .daiZhi_flower .container .row .downMid a p,
-body .daiZhi_flower .container .row .downRight a p {
-  font-size: 24px;
-  margin: 0px;
-}
-body .daiZhi_flower .container .row .topLeft {
-  border-right: 1px solid #999481;
-}
-body .daiZhi_flower .container .row .topRight a .kuang {
-  background: url('../Image/PC/主页/黛芷花园/hualan1.jpg') no-repeat 0px 0px;
-  background-size: cover;
-}
-body .daiZhi_flower .container .row .downLeft {
-  padding-top: 32px;
-  border-right: 1px solid #999481;
-  border-top: 1px solid #999481;
-}
-body .daiZhi_flower .container .row .downLeft a .kuang {
-  background: url('../Image/PC/主页/黛芷花园/hualan1.jpg') no-repeat 0px 0px;
-  background-size: cover;
-}
-body .daiZhi_flower .container .row .downRight {
-  padding-top: 32px;
-  border-top: 1px solid #999481;
-}
-body .daiZhi_flower .container .row .downRight a .kuang {
-  background: url('../Image/PC/??/????/20.JPG') no-repeat 0px 0px;
-  background-size: cover;
-}
-body .daiZhi_flower .container .down {
-  margin-top: 64px;
-  height: 480px;
-}
-body .daiZhi_flower .container .down .downLeft div {
-  width: 400px;
-  float: left;
-}
-body .daiZhi_flower .container .down .downLeft div .kuang {
-  border: 1px solid #8c8c8c;
-  height: 400px;
-  width: 400px;
-  margin: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative;
-}
-body .daiZhi_flower .container .down .downLeft div .kuang a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-body .daiZhi_flower .container .down .downLeft div .kuang a img {
-  width: 400px;
-  position: absolute;
-  top: -135px;
-  left: 0px;
-}
-body .daiZhi_flower .container .down .downLeft div h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
-  line-height: 52px;
-  color: #262626;
-}
-body .daiZhi_flower .container .down .downLeft div p {
-  font-size: 24px;
-  margin: 0px;
-}
-body .daiZhi_flower .container .down .downMid div {
-  width: 400px;
-  margin: 0 auto;
-}
-body .daiZhi_flower .container .down .downMid div .kuang {
-  border: 1px solid #8c8c8c;
-  height: 400px;
-  width: 400px;
-  margin: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative;
-}
-body .daiZhi_flower .container .down .downMid div .kuang a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-body .daiZhi_flower .container .down .downMid div .kuang a img {
-  width: 400px;
-  position: absolute;
-  top: -80px;
-  left: 0px;
-}
-body .daiZhi_flower .container .down .downMid div h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
-  line-height: 52px;
-  color: #262626;
-}
-body .daiZhi_flower .container .down .downMid div p {
-  font-size: 24px;
-  margin: 0px;
-}
-body .daiZhi_flower .container .down .downRight div {
-  width: 400px;
-  float: right;
-}
-body .daiZhi_flower .container .down .downRight div .kuang {
-  border: 1px solid #8c8c8c;
-  height: 400px;
-  width: 400px;
-  margin: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative;
-}
-body .daiZhi_flower .container .down .downRight div .kuang a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-body .daiZhi_flower .container .down .downRight div .kuang a img {
-  width: 400px;
-  position: absolute;
-  top: -80px;
-  left: 0px;
-}
-body .daiZhi_flower .container .down .downRight div h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
-  line-height: 52px;
-  color: #262626;
-}
-body .daiZhi_flower .container .down .downRight div p {
-  font-size: 24px;
-  margin: 0px;
-}
-body .other .container {
-  padding: 0;
-}
-body .other .container .row .topLeft,
-body .other .container .row .topMid,
-body .other .container .row .topRight {
-  padding-bottom: 16px;
-  padding-top: 5px;
-  border-bottom: 1px solid #262626;
-}
-body .other .container .row .topLeft a,
-body .other .container .row .topMid a,
-body .other .container .row .topRight a {
-  display: block;
-  height: 192px;
-}
-body .other .container .row .topLeft a .kuang,
-body .other .container .row .topMid a .kuang,
-body .other .container .row .topRight a .kuang {
-  float: left;
-  width: 320px;
-  height: 192px;
-  background: url('../Image/PC/??/??/WYM_7395.jpg') no-repeat 0px 0px;
-  background-size: cover;
-  border: 1px solid #8c8c8c;
-  box-sizing: border-box;
-}
-body .other .container .row .topLeft a h3,
-body .other .container .row .topMid a h3,
-body .other .container .row .topRight a h3 {
-  padding-top: 70px;
-  margin-left: 320px;
-  padding-left: 34px;
-  font-size: 24px;
-  color: #292929;
-}
-body .other .container .row .topLeft a p,
-body .other .container .row .topMid a p,
-body .other .container .row .topRight a p {
-  margin-left: 320px;
-  padding-left: 34px;
-  font-size: 16px;
-  line-height: 26px;
-}
-body .other .container .row .topMid a .kuang {
-  background: url('../Image/PC/??/??/WYM_7375.jpg') no-repeat 0px 0px;
-  background-size: cover;
-}
-body .other .container .row .topRight {
-  border-bottom: none;
-  margin-bottom: 60px;
-}
-body .other .container .row .topRight a .kuang {
-  background: url('../Image/PC/??/??/WYM_7325.jpg') no-repeat 0px 0px;
-  background-size: cover;
-}
-body .ipad-nav {
+body .ipad_nav {
   width: 100%;
   height: 80px;
   background: #f7f7f7;
 }
-body .ipad-nav .content {
-  width: 95.83333333%;
+body .ipad_nav .container {
   height: 80px;
   margin: 0 auto;
   position: relative;
 }
-body .ipad-nav .content .nav-left {
+body .ipad_nav .container .nav-left {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  color: #999481;
+  z-index: 3;
+}
+body .ipad_nav .container .nav-left i {
   width: 36px;
   height: 24px;
-  position: absolute;
-  top: 28px;
-  left: 0;
-  transition: .5s all linear;
+  font-size: 48px;
 }
-body .ipad-nav .content .nav-left p {
-  width: 36px;
-  height: 6px;
-  background: #999481;
-  margin: 0;
-  padding: 0;
-  margin-top: 6px;
-}
-body .ipad-nav .content .nav-left .first {
-  margin-top: 0;
-}
-body .ipad-nav .content #logo {
+body .ipad_nav .container #logo {
+  padding-left: 40px;
   width: 125px;
   height: 40px;
+  position: absolute;
+  top: -8px;
+  left: 38px;
 }
-body .ipad-nav .content #logo embed {
+body .ipad_nav .container #logo embed {
   display: block;
   width: 125px;
-  position: absolute;
-  top: 0px;
-  left: 100px;
 }
-body .ipad-nav .content .language embed {
-  display: block;
-  width: 40px;
+body .ipad_nav .container .language {
+  color: #999481;
+}
+body .ipad_nav .container .language i {
+  font-size: 40px;
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0px;
 }
-body .ipad-nav .content .nav-active {
+body .ipad_nav .container .nav-active {
   transform: rotate(90deg);
-  transition: .5s all linear;
+  transition: all 0.03s ease-in;
 }
-body .nav-content {
+body .iphone_nav {
+  display: none;
+}
+body .ipad_nav_content {
   width: 240px;
   height: 100%;
   background: #f4f4f4;
@@ -426,41 +66,409 @@ body .nav-content {
   left: -240px;
   z-index: 2;
 }
-body .nav-content ul {
+body .ipad_nav_content ul {
   list-style: none;
   padding-left: 0;
 }
-body .nav-content ul li {
-  padding-left: 15px;
-  padding-right: 10px;
+body .ipad_nav_content ul li {
+  padding-left: 16px;
+  padding-right: 32px;
   height: 80px;
   line-height: 80px;
   font-size: 24px;
   border-bottom: 1px solid #999481;
 }
-body .nav-content ul li embed {
+body .ipad_nav_content ul li a {
   display: block;
-  width: 40px;
+  width: 100%;
+  height: 100%;
+  color: #999481;
+}
+body .ipad_nav_content ul li a i {
+  display: block;
   float: right;
-  margin-top: 20px;
+  font-size: 32px;
 }
-footer {
+body .ipad_nav_content ul .active {
+  background-color: #999481;
+}
+body .ipad_nav_content ul .active a {
+  color: #fff;
+}
+body .pc_logo {
+  display: none;
+}
+body .content-wrapper {
+  width: 100%;
+  padding-top: 32px;
+}
+body .content-wrapper .daiZhi .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhi .container .row .ipad .pad {
+  width: 100%;
+  text-align: center;
+}
+body .content-wrapper .daiZhi .container .row .ipad .pad .inc {
+  color: #262626;
+}
+body .content-wrapper .daiZhi .container .row .ipad .pad .inc p {
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+body .content-wrapper .daiZhi .container .row .ipad .pad .inc .p2 {
+  margin-top: 16px;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+body .content-wrapper .daiZhi .container .row .ipad .pad .inc hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhi .container .row .ipad .rightbox div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhi .container .row .ipad .rightbox div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhi .container .row .ipad .rightbox div .pcImg {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhi .container .row .iphone {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .head {
+  text-align: center;
+}
+body .content-wrapper .daiZhiJiaJu .container .head .title {
+  color: #262626;
+  font-size: 32px;
+  line-height: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+body .content-wrapper .daiZhiJiaJu .container .head hr {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .iphone {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .ipad .left div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .ipad .left div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .ipad .left div .pcImg {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce {
+  margin-bottom: 20px;
+  position: relative;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce h3 {
+  text-align: center;
+  margin: 0px;
+  font-size: 32px;
+  line-height: 40px;
+  padding-top: 12px;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce p {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 14px;
+  line-height: 24px;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce div {
+  display: none;
+}
+body .content-wrapper .daiZhi_flower .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .head p {
+  font-size: 36px;
+  line-height: 94px;
+  text-align: center;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .head hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a {
+  display: block;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a .kuang {
+  height: 400px;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a .kuang .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a .kuang .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a .kuang .pcImg {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a h3,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a h3,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a h3,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a h3 {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 32px;
+  color: #262626;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft a p,
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a p,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a p,
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a p {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topLeft {
+  border-right: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .topRight a .kuang {
+  background-size: cover;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft {
+  padding-top: 32px;
+  border-right: 1px solid #999481;
+  border-top: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .downLeft a .kuang {
+  background-size: cover;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight {
+  padding-top: 32px;
+  border-top: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad .downRight a .kuang {
+  background-size: cover;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .pc_head {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head {
+  text-align: center;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head hr {
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head .title {
+  color: #262626;
+  font-size: 32px;
+  line-height: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhiChaShi .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row .iphone {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad .left div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad .left div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad .left div .pcImg {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce {
+  margin-bottom: 20px;
+  position: relative;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce h3 {
+  text-align: center;
+  margin: 0px;
+  font-size: 32px;
+  line-height: 40px;
+  padding-top: 12px;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce p {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 14px;
+  line-height: 24px;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce div {
+  display: none;
+}
+body .content-wrapper .other .container hr {
+  display: none;
+}
+body .content-wrapper .other .container .row hr {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+body .content-wrapper .other .container .row .pc {
+  display: none;
+}
+body .content-wrapper .other .container .row .iphone {
+  display: none;
+}
+body .content-wrapper .other .container .row .ipad hr {
+  margin-top: 24px;
+}
+body .content-wrapper .other .container .row .ipad .topLeft a,
+body .content-wrapper .other .container .row .ipad .topMid a,
+body .content-wrapper .other .container .row .ipad .topRight a {
+  display: block;
+  height: 192px;
+}
+body .content-wrapper .other .container .row .ipad .topLeft a .kuang,
+body .content-wrapper .other .container .row .ipad .topMid a .kuang,
+body .content-wrapper .other .container .row .ipad .topRight a .kuang {
+  float: left;
+  width: 320px;
+  height: 192px;
+  background: url('../images/Ipad/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+body .content-wrapper .other .container .row .ipad .topLeft a h3,
+body .content-wrapper .other .container .row .ipad .topMid a h3,
+body .content-wrapper .other .container .row .ipad .topRight a h3 {
+  padding-top: 88px;
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 24px;
+  color: #292929;
+  margin-bottom: 0;
+  line-height: 32px;
+}
+body .content-wrapper .other .container .row .ipad .topLeft a p,
+body .content-wrapper .other .container .row .ipad .topMid a p,
+body .content-wrapper .other .container .row .ipad .topRight a p {
+  margin-left: 320px;
+  padding-left: 34px;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+body .content-wrapper .other .container .row .ipad .topMid a .kuang {
+  background: url('../images/Ipad/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .content-wrapper .other .container .row .ipad .topRight {
+  border-bottom: none;
+  margin-bottom: 60px;
+}
+body .content-wrapper .other .container .row .ipad .topRight a .kuang {
+  background: url('../images/Ipad/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body footer {
   background-color: #f4f4f4;
-  padding-top: 38px;
 }
-footer .container .row {
-  padding-bottom: 100px;
+body footer .pc {
+  display: none;
 }
-footer .container .row .footLeft,
-footer .container .row .footMid,
-footer .container .row .footRight {
+body footer .iphone {
+  display: none;
+}
+body footer .ipad .container {
+  padding-top: 32px;
+}
+body footer .ipad .container .row {
+  padding-bottom: 60px;
+}
+body footer .ipad .container .row .footLeft,
+body footer .ipad .container .row .footMid {
   padding-left: 0;
   padding-right: 28px;
 }
-footer .container .row .footLeft p,
-footer .container .row .footMid p,
-footer .container .row .footRight p {
+body footer .ipad .container .row .footLeft p,
+body footer .ipad .container .row .footMid p {
   font-size: 16px;
   line-height: 28px;
   color: #999481;
+}
+body footer .ipad .container .row .footLeft a,
+body footer .ipad .container .row .footMid a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999481;
+  text-decoration: none;
+}
+body footer .ipad .container .row .footLeft a:active,
+body footer .ipad .container .row .footMid a:active {
+  text-decoration: none;
+}
+body footer .ipad .container .row .footLeft .weixin,
+body footer .ipad .container .row .footMid .weixin {
+  position: relative;
+}
+body footer .ipad .container .row .footLeft .erweima,
+body footer .ipad .container .row .footMid .erweima {
+  width: 80px;
+  height: 80px;
+  background: url('../images/erweima.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  display: none;
+}
+body footer .ipad .container .row .footLeft .weixin:hover .erweima,
+body footer .ipad .container .row .footMid .weixin:hover .erweima {
+  display: block;
+}
+body footer .ipad .container .row .footMid p {
+  margin-bottom: 0;
 }

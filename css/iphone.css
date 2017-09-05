@@ -1,0 +1,491 @@
+body a {
+  text-decoration: none;
+}
+body .daiZhi_nav {
+  display: none;
+}
+body .ipad_nav {
+  display: none;
+}
+body .iphone_nav {
+  width: 100%;
+  height: 64px;
+  background: #f7f7f7;
+}
+body .iphone_nav .container {
+  height: 64px;
+  margin: 0 auto;
+  position: relative;
+}
+body .iphone_nav .container .iphone_nav_left {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 2px;
+  left: 15px;
+  transition: .03s all linear;
+  color: #999481;
+  z-index: 3;
+}
+body .iphone_nav .container .iphone_nav_left i {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+}
+body .iphone_nav .container #iphone_logo {
+  padding-left: 50px;
+  width: 125px;
+  height: 40px;
+  position: absolute;
+  top: -16px;
+  left: 15px;
+}
+body .iphone_nav .container #iphone_logo embed {
+  display: block;
+  width: 125px;
+}
+body .iphone_nav .container .language {
+  color: #999481;
+}
+body .iphone_nav .container .language i {
+  font-size: 40px;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+body .iphone_nav .container .nav-active {
+  transform: rotate(90deg);
+  transition: .03s all linear;
+}
+body .ipad_nav_content {
+  width: 240px;
+  height: 100%;
+  background: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: -240px;
+  z-index: 2;
+}
+body .ipad_nav_content ul {
+  list-style: none;
+  padding-left: 0;
+}
+body .ipad_nav_content ul li {
+  padding-left: 16px;
+  padding-right: 32px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 24px;
+  border-bottom: 1px solid #999481;
+}
+body .ipad_nav_content ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #999481;
+}
+body .ipad_nav_content ul li a i {
+  display: block;
+  float: right;
+  font-size: 32px;
+}
+body .ipad_nav_content ul li a .first {
+  font-size: 26px;
+}
+body .ipad_nav_content ul li:hover {
+  background-color: #999481;
+}
+body .ipad_nav_content ul li:hover a {
+  color: #fff;
+}
+body .ipad_nav_content ul .active {
+  background-color: #999481;
+}
+body .ipad_nav_content ul .active a {
+  color: #fff;
+}
+body .pc_logo {
+  display: none;
+}
+body .content-wrapper {
+  width: 100%;
+  padding-top: 20px;
+}
+body .content-wrapper .daiZhi .container .row {
+  margin: 0px;
+}
+body .content-wrapper .daiZhi .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhi .container .row .ipad {
+  display: none;
+}
+body .content-wrapper .daiZhi .container .row .pad {
+  width: 100%;
+  text-align: center;
+}
+body .content-wrapper .daiZhi .container .row .pad .inc {
+  color: #262626;
+}
+body .content-wrapper .daiZhi .container .row .pad .inc p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhi .container .row .pad .inc hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+body .content-wrapper .daiZhi .container .row .pad .inc .p2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+body .content-wrapper .daiZhi .container .row .rightbox div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhi .container .row .rightbox div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhi .container .row .rightbox div .pcImg {
+  width: 100%;
+  height: 540px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhiJiaJu .container .head {
+  text-align: center;
+}
+body .content-wrapper .daiZhiJiaJu .container .head .title {
+  color: #262626;
+  font-size: 24px;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhiJiaJu .container .head hr {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row {
+  margin: 0px;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .ipad {
+  display: none;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .iphone .left div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .iphone .left div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhiJiaJu .container .row .iphone .left div .pcImg {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce {
+  margin-bottom: 20px;
+  margin: auto;
+  position: relative;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce h3 {
+  text-align: center;
+  margin: 0px;
+  font-size: 24px;
+  line-height: 36px;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce p {
+  width: 96%;
+  font-size: 12px;
+}
+body .content-wrapper .daiZhiJiaJu .container .introduce div {
+  display: none;
+}
+body .content-wrapper .daiZhi_flower .container .row {
+  margin: 0px;
+}
+body .content-wrapper .daiZhi_flower .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhi_flower .container .row .ipad {
+  display: none;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .head hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .head p {
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a {
+  display: block;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a .kuang,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a .kuang {
+  width: 100%;
+  overflow: hidden;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a .kuang .mobileImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a .kuang .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a .kuang .mobileImg > img,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a .kuang .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a .kuang .pcImg,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a .kuang .pcImg {
+  width: 100%;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a h3,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a h3,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a h3,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft a p,
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight a p,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft a p,
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight a p {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topLeft {
+  padding-right: 12px;
+  border-right: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .topRight {
+  padding-left: 12px;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .downLeft {
+  padding-top: 12px;
+  padding-right: 12px;
+  border-right: 1px solid #999481;
+  border-top: 1px solid #999481;
+}
+body .content-wrapper .daiZhi_flower .container .row .iphone .downRight {
+  padding-top: 12px;
+  padding-left: 12px;
+  border-top: 1px solid #999481;
+}
+body .content-wrapper .daiZhiChaShi .container .pc_head {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row {
+  margin: 0px;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head {
+  text-align: center;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head hr {
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad_head .title {
+  color: #262626;
+  font-size: 24px;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .content-wrapper .daiZhiChaShi .container .row .pc {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row .ipad {
+  display: none;
+}
+body .content-wrapper .daiZhiChaShi .container .row .iphone .left div .mobileImg {
+  width: 100%;
+}
+body .content-wrapper .daiZhiChaShi .container .row .iphone .left div .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+body .content-wrapper .daiZhiChaShi .container .row .iphone .left div .pcImg {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce {
+  margin-bottom: 20px;
+  position: relative;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce h3 {
+  text-align: center;
+  margin: 0px;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce p {
+  width: 96%;
+  margin: auto;
+  font-size: 12px;
+}
+body .content-wrapper .daiZhiChaShi .container .introduce div {
+  display: none;
+}
+body .content-wrapper .other .container hr {
+  display: none;
+}
+body .content-wrapper .other .container .row {
+  margin: 0px;
+}
+body .content-wrapper .other .container .row hr {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+body .content-wrapper .other .container .row .pc {
+  display: none;
+}
+body .content-wrapper .other .container .row .ipad {
+  display: none;
+}
+body .content-wrapper .other .container .row .iphone .topLeft a,
+body .content-wrapper .other .container .row .iphone .topMid a,
+body .content-wrapper .other .container .row .iphone .topRight a {
+  display: block;
+  padding-top: 12px;
+  margin-bottom: 14px;
+}
+body .content-wrapper .other .container .row .iphone .topLeft a .kuang,
+body .content-wrapper .other .container .row .iphone .topMid a .kuang,
+body .content-wrapper .other .container .row .iphone .topRight a .kuang {
+  width: 100%;
+  height: 196px;
+  background: url('../images/iphone/主页/其他/WYM_7395.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  border: 1px solid #8c8c8c;
+  box-sizing: border-box;
+}
+body .content-wrapper .other .container .row .iphone .topLeft a h3,
+body .content-wrapper .other .container .row .iphone .topMid a h3,
+body .content-wrapper .other .container .row .iphone .topRight a h3 {
+  text-align: center;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 28px;
+}
+body .content-wrapper .other .container .row .iphone .topLeft a p,
+body .content-wrapper .other .container .row .iphone .topMid a p,
+body .content-wrapper .other .container .row .iphone .topRight a p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+body .content-wrapper .other .container .row .iphone .topMid a .kuang {
+  background: url('../images/iphone/主页/其他/WYM_7375.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body .content-wrapper .other .container .row .iphone .topRight {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+body .content-wrapper .other .container .row .iphone .topRight a .kuang {
+  background: url('../images/iphone/主页/其他/WYM_7325.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+body footer {
+  background-color: #f4f4f4;
+}
+body footer .pc {
+  display: none;
+}
+body footer .ipad {
+  display: none;
+}
+body footer .iphone .container {
+  padding-top: 16px;
+}
+body footer .iphone .container .row {
+  margin: 0px;
+  padding-bottom: 40px;
+}
+body footer .iphone .container .row .footLeft,
+body footer .iphone .container .row .footMid,
+body footer .iphone .container .row .footRight {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 28px;
+}
+body footer .iphone .container .row .footLeft p,
+body footer .iphone .container .row .footMid p,
+body footer .iphone .container .row .footRight p {
+  font-size: 10px;
+  line-height: 28px;
+  color: #999481;
+  margin-bottom: 0;
+}
+body footer .iphone .container .row .footLeft a,
+body footer .iphone .container .row .footMid a,
+body footer .iphone .container .row .footRight a {
+  font-size: 10px;
+  line-height: 28px;
+  color: #999481;
+  text-decoration: none;
+}
+body footer .iphone .container .row .footLeft a:active,
+body footer .iphone .container .row .footMid a:active,
+body footer .iphone .container .row .footRight a:active {
+  text-decoration: none;
+}
+body footer .iphone .container .row .footLeft .weixin,
+body footer .iphone .container .row .footMid .weixin,
+body footer .iphone .container .row .footRight .weixin {
+  position: relative;
+}
+body footer .iphone .container .row .footLeft .erweima,
+body footer .iphone .container .row .footMid .erweima,
+body footer .iphone .container .row .footRight .erweima {
+  width: 80px;
+  height: 80px;
+  background: url('../images/erweima.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  display: none;
+}
+body footer .iphone .container .row .footLeft .weixin:hover .erweima,
+body footer .iphone .container .row .footMid .weixin:hover .erweima,
+body footer .iphone .container .row .footRight .weixin:hover .erweima {
+  display: block;
+}
