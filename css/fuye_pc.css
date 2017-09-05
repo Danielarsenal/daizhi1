@@ -17,7 +17,8 @@ a {
 body {
   min-width: 1312px;
 }
-body .fuye_ipad {
+body .fuye_ipad,
+body .fuye_iphone {
   display: none;
 }
 .clearfix {
@@ -25,129 +26,145 @@ body .fuye_ipad {
   display: block;
   clear: both;
 }
-.header {
+.fuye_pc .header {
   width: 100%;
   height: 80px;
   background: #f4f4f4;
 }
-.header .content {
+.fuye_pc .header .content {
   width: 91.11111111%;
   height: 80px;
   margin: 0 auto;
+  position: relative;
 }
-.header .content .nav {
+.fuye_pc .header .content .nav {
   float: left;
 }
-.header .content .nav ul li {
+.fuye_pc .header .content .nav ul li {
   float: left;
-  font-family: "微软雅黑";
   font-size: 20px;
-  margin-left: 2.4rem;
+  margin-left: 24px;
   line-height: 80px;
 }
-.header .content .nav ul li a {
+.fuye_pc .header .content .nav ul li a {
   color: #999481;
   text-decoration: none;
+  animation: 0.3s ease-in;
 }
-.header .content .nav ul li.index {
+.fuye_pc .header .content .nav ul li a:hover {
+  background: #999481;
+  color: #fff;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .header .content .nav ul li.index {
   margin-left: 0;
 }
-.header .content .language {
+.fuye_pc .header .content .language {
   float: right;
-  color: #999481;
-  line-height: 80px;
-  font-size: 20px;
 }
-.header .content .language a {
+.fuye_pc .header .content .language .ic_language_black_48 {
+  width: 40px;
+  height: 40px;
   color: #999481;
-  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
-.section {
+.fuye_pc .section {
   width: 91.11111111%;
   margin: 0 auto;
 }
-.logo {
+.fuye_pc .logo {
   width: 250px;
-  height: 76px;
+  height: auto;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: -28px;
 }
-.logo img {
-  display: block;
-  width: 100%;
+.fuye_pc .logo .pc-logo {
+  width: 250px;
 }
-.navbar {
+.fuye_pc .navbar {
   width: 100%;
-  margin-top: 32px;
+  height: auto;
+  margin-top: -32px;
   text-align: center;
 }
-.navbar ul {
-  width: 640px;
+.fuye_pc .navbar ul {
+  width: 670px;
   height: 24px;
   line-height: 24px;
   margin: 0 auto;
 }
-.navbar ul li {
+.fuye_pc .navbar ul li {
   float: left;
   margin-left: 24px;
 }
-.navbar ul li a {
+.fuye_pc .navbar ul li a {
   text-decoration: none;
-  color: #000;
-  font-size: 16px;
+  color: #262626;
+  font-size: 18px;
+  font-weight: 100;
 }
-.navbar ul .first {
+.fuye_pc .navbar ul .first {
   margin-left: 0;
 }
-.navbar ul .first a {
+.fuye_pc .navbar ul .first a {
   text-decoration: none;
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
 }
-.carousel {
+.fuye_pc .carousel {
   width: 100%;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: -26px;
   overflow: hidden;
 }
-.carousel .imglist {
+.fuye_pc .carousel .imglist {
   width: 100%;
+  animation: 0.3s ease-in;
 }
-.carousel .imglist li {
+.fuye_pc .carousel .imglist li {
   width: 100%;
+  animation: 0.3s ease-in;
 }
-.carousel .imglist li img {
+.fuye_pc .carousel .imglist li img {
   display: block;
   width: 100%;
   height: 720px;
 }
-.carousel .swiper-pagination-bullet {
+.fuye_pc .carousel .swiper-pagination-bullet {
   background: #fff;
   opacity: 0.55;
   filter: alpha(opacity=55);
 }
-.carousel .swiper-pagination-bullet-active {
+.fuye_pc .carousel .swiper-pagination-bullet-active {
   background: #fff;
   opacity: 1;
 }
-.dardree-home {
+.fuye_pc .carousel .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .dardree-home {
   width: 100%;
   height: 528px;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 38px;
 }
-.dardree-home .fragrant {
+.fuye_pc .dardree-home .fragrant {
   width: 30.48780488%;
   float: left;
 }
-.dardree-home .fragrant .top {
+.fuye_pc .dardree-home .fragrant .top {
   width: 100%;
   height: 240px;
   box-sizing: border-box;
   border: 1px solid #999481;
   position: relative;
 }
-.dardree-home .fragrant .top p {
+.fuye_pc .dardree-home .fragrant .top p {
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -157,16 +174,15 @@ body .fuye_ipad {
   font-weight: 100;
   color: #000;
 }
-.dardree-home .fragrant .top i {
+.fuye_pc .dardree-home .fragrant .top i {
   display: block;
-  width: 64px;
+  width: 32px;
   height: 1px;
   background: #8c8c8c;
-  position: absolute;
-  top: 96px;
-  left: 168px;
+  margin: 0 auto;
+  margin-top: 96px;
 }
-.dardree-home .fragrant .top span {
+.fuye_pc .dardree-home .fragrant .top span {
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -175,71 +191,87 @@ body .fuye_ipad {
   top: 110px;
   left: 0;
 }
-.dardree-home .fragrant .top .see {
+.fuye_pc .dardree-home .fragrant .top .see {
   width: 80px;
   height: 32px;
   border: 1px solid #999481;
-  border-radius: 4px;
+  border-radius: 2px;
   text-align: center;
   color: #999481;
   line-height: 32px;
   font-size: 16px;
-  position: absolute;
-  top: 160px;
-  left: 160px;
+  margin: 0 auto;
+  margin-top: 60px;
   cursor: pointer;
-  font-family: simhei;
+  letter-spacing: 4px;
+  animation: 0.3s ease-in;
 }
-.dardree-home .fragrant .bottom {
+.fuye_pc .dardree-home .fragrant .top .see:hover {
+  background: #999481;
+  color: #fff;
+  border: 0;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .dardree-home .fragrant .bottom {
   width: 100%;
   margin-top: 48px;
-}
-.dardree-home .fragrant .bottom div {
-  width: 100%;
   height: 240px;
-  background: #f7f7f7 url(../images/c811f59224729dee2be3d7fe80f322b99c9d36dd_image-22790-1.png) no-repeat;
-  background-size: 100% 100%;
+  background: #f7f7f7;
+  position: relative;
 }
-.dardree-home .flowers {
+.fuye_pc .dardree-home .fragrant .bottom img {
+  height: 240px;
+  position: absolute;
+  top: 0%;
+  left: 12.5%;
+}
+.fuye_pc .dardree-home .flowers {
   float: left;
   width: 30.48780488%;
-  margin-left: 4%;
-  margin-left: 56px;
-}
-.dardree-home .flowers div {
-  width: 100%;
   height: 528px;
-  background: #f7f7f7 url(../images/76b1b11719d6e8c32c7d4fd5efe59830f17ee48a_image-23964-1.png) no-repeat;
-  background-size: 100% 100%;
+  margin-left: 56px;
+  position: relative;
+  background: #f7f7f7;
 }
-.dardree-home .dinner-candle {
+.fuye_pc .dardree-home .flowers img {
+  width: 328px;
+  height: 357px;
+  position: absolute;
+  top: 16.2%;
+  left: 9%;
+}
+.fuye_pc .dardree-home .dinner-candle {
   float: right;
   width: 30.48780488%;
-}
-.dardree-home .dinner-candle div {
-  width: 100%;
   height: 528px;
-  background: #f7f7f7 url(../images/0ac46f7ffb4020bddcbb63d491bf2a7998a30ef4_image-22921-1.png) no-repeat left top;
-  background-size: 100% 100%;
+  background: #f7f7f7;
+  position: relative;
 }
-.garden {
+.fuye_pc .dardree-home .dinner-candle img {
+  width: 335px;
+  height: 251px;
+  position: absolute;
+  top: 26.23%;
+  left: 8.125%;
+}
+.fuye_pc .garden {
   width: 100%;
   height: 528px;
   margin: 0 auto;
   margin-top: 48px;
 }
-.garden .fragrant {
+.fuye_pc .garden .fragrant {
   width: 30.48780488%;
   float: left;
 }
-.garden .fragrant .top {
+.fuye_pc .garden .fragrant .top {
   width: 100%;
   height: 240px;
   box-sizing: border-box;
   border: 1px solid #999481;
   position: relative;
 }
-.garden .fragrant .top p {
+.fuye_pc .garden .fragrant .top p {
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -249,16 +281,15 @@ body .fuye_ipad {
   font-weight: 100;
   color: #000;
 }
-.garden .fragrant .top i {
+.fuye_pc .garden .fragrant .top i {
   display: block;
-  width: 64px;
+  width: 32px;
   height: 1px;
   background: #8c8c8c;
-  position: absolute;
-  top: 96px;
-  left: 168px;
+  margin: 0 auto;
+  margin-top: 96px;
 }
-.garden .fragrant .top span {
+.fuye_pc .garden .fragrant .top span {
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -267,73 +298,74 @@ body .fuye_ipad {
   top: 110px;
   left: 0;
 }
-.garden .fragrant .top .see {
+.fuye_pc .garden .fragrant .top .see {
   width: 80px;
   height: 32px;
   border: 1px solid #999481;
-  border-radius: 4px;
+  border-radius: 2px;
   text-align: center;
   color: #999481;
   line-height: 32px;
   font-size: 16px;
-  position: absolute;
-  top: 160px;
-  left: 160px;
+  margin: 0 auto;
+  margin-top: 60px;
   cursor: pointer;
+  letter-spacing: 4px;
 }
-.garden .fragrant .bottom {
+.fuye_pc .garden .fragrant .top .see:hover {
+  background: #999481;
+  color: #fff;
+  border: 0;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .garden .fragrant .bottom {
   margin-top: 48px;
   width: 100%;
+  height: 240px;
 }
-.garden .fragrant .bottom div {
+.fuye_pc .garden .fragrant .bottom img {
   width: 100%;
   height: 240px;
-  background: url(../images/Apothicaire-4.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.garden .flowers {
+.fuye_pc .garden .flowers {
   float: left;
   width: 30.48780488%;
   margin-left: 56px;
 }
-.garden .flowers div {
+.fuye_pc .garden .flowers img {
   width: 100%;
   height: 528px;
-  background: url(../images/2e9a93_bbaf5860156c4a999d09075f70d8da49.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.garden .flowers p {
+.fuye_pc .garden .flowers p {
   font-size: 2.4rem;
   line-height: 7rem;
 }
-.garden .dinner-candle {
+.fuye_pc .garden .dinner-candle {
   float: right;
   width: 30.48780488%;
 }
-.garden .dinner-candle div {
+.fuye_pc .garden .dinner-candle img {
   width: 100%;
   height: 528px;
-  background: url(../images/SECRET_DAPOTHICAIRE_BONBONNIERE.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.tea-room {
+.fuye_pc .tea-room {
   width: 100%;
   height: 528px;
   margin: 0 auto;
   margin-top: 48px;
 }
-.tea-room .fragrant {
+.fuye_pc .tea-room .fragrant {
   float: left;
   width: 30.48780488%;
 }
-.tea-room .fragrant .top {
+.fuye_pc .tea-room .fragrant .top {
   width: 100%;
   height: 240px;
   box-sizing: border-box;
   border: 1px solid #999481;
   position: relative;
 }
-.tea-room .fragrant .top p {
+.fuye_pc .tea-room .fragrant .top p {
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -343,16 +375,15 @@ body .fuye_ipad {
   font-weight: 100;
   color: #000;
 }
-.tea-room .fragrant .top i {
+.fuye_pc .tea-room .fragrant .top i {
   display: block;
-  width: 64px;
+  width: 32px;
   height: 1px;
   background: #8c8c8c;
-  position: absolute;
-  top: 96px;
-  left: 168px;
+  margin: 0 auto;
+  margin-top: 96px;
 }
-.tea-room .fragrant .top span {
+.fuye_pc .tea-room .fragrant .top span {
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -361,61 +392,61 @@ body .fuye_ipad {
   top: 110px;
   left: 0;
 }
-.tea-room .fragrant .top .see {
+.fuye_pc .tea-room .fragrant .top .see {
   width: 80px;
   height: 32px;
   border: 1px solid #999481;
-  border-radius: 4px;
+  border-radius: 2px;
   text-align: center;
   color: #999481;
   line-height: 32px;
   font-size: 16px;
-  position: absolute;
-  top: 160px;
-  left: 160px;
+  margin: 0 auto;
+  margin-top: 60px;
   cursor: pointer;
+  letter-spacing: 4px;
 }
-.tea-room .fragrant .bottom {
+.fuye_pc .tea-room .fragrant .top .see:hover {
+  background: #999481;
+  color: #fff;
+  border: 0;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .tea-room .fragrant .bottom {
   margin-top: 48px;
   width: 100%;
 }
-.tea-room .fragrant .bottom div {
+.fuye_pc .tea-room .fragrant .bottom img {
   width: 100%;
   height: 240px;
-  background: #f7f7f7 url(../images/B20163-asian-secrets-scent-candles-gift-set-2.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.tea-room .flowers {
+.fuye_pc .tea-room .flowers {
   float: left;
   width: 30.48780488%;
-  margin-left: 4.66666667%;
+  margin-left: 56px;
 }
-.tea-room .flowers div {
+.fuye_pc .tea-room .flowers img {
   width: 100%;
   height: 528px;
-  background: #f7f7f7 url(../images/10357800-vetiver-perfume-diffuser-bali-indonesia.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.tea-room .dinner-candle {
+.fuye_pc .tea-room .dinner-candle {
   float: right;
   width: 30.48780488%;
 }
-.tea-room .dinner-candle div {
+.fuye_pc .tea-room .dinner-candle img {
   width: 100%;
   height: 528px;
-  background: #f7f7f7 url(../images/10357200-poplar-scented-candle-aspen-united-states.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.tableware {
+.fuye_pc .tableware {
   width: 100%;
   height: 240px;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 48px;
   position: relative;
-  padding-bottom: 48px;
+  padding-bottom: 288px;
   border-bottom: 1px solid #999481;
 }
-.tableware .left {
+.fuye_pc .tableware .left {
   float: left;
   width: 30.48780488%;
   height: 240px;
@@ -423,7 +454,7 @@ body .fuye_ipad {
   border: 1px solid #999481;
   position: relative;
 }
-.tableware .left p {
+.fuye_pc .tableware .left p {
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -433,16 +464,15 @@ body .fuye_ipad {
   font-weight: 100;
   color: #000;
 }
-.tableware .left i {
+.fuye_pc .tableware .left i {
   display: block;
-  width: 64px;
+  width: 32px;
   height: 1px;
   background: #8c8c8c;
-  position: absolute;
-  top: 96px;
-  left: 168px;
+  margin: 0 auto;
+  margin-top: 96px;
 }
-.tableware .left span {
+.fuye_pc .tableware .left span {
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -451,67 +481,67 @@ body .fuye_ipad {
   top: 110px;
   left: 0;
 }
-.tableware .left .see {
+.fuye_pc .tableware .left .see {
   width: 80px;
   height: 32px;
   border: 1px solid #999481;
-  border-radius: 4px;
+  border-radius: 2px;
   text-align: center;
   color: #999481;
   line-height: 32px;
   font-size: 16px;
-  position: absolute;
-  top: 160px;
-  left: 160px;
+  margin: 0 auto;
+  margin-top: 60px;
   cursor: pointer;
+  letter-spacing: 4px;
 }
-.tableware .middle {
+.fuye_pc .tableware .left .see:hover {
+  background: #999481;
+  color: #fff;
+  border: 0;
+  animation: 0.3s ease-in;
+}
+.fuye_pc .tableware .middle {
   width: 30.48780488%;
   height: 240px;
   float: left;
   margin-left: 56px;
 }
-.tableware .middle div {
+.fuye_pc .tableware .middle img {
   width: 100%;
   height: 240px;
-  background: url(../images/20225476_806819899477559_2330373152284082176_n.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.tableware .right {
+.fuye_pc .tableware .right {
   width: 30.48780488%;
   height: 240px;
   float: right;
 }
-.tableware .right div {
+.fuye_pc .tableware .right img {
   width: 100%;
   height: 240px;
   float: right;
-  background: url(../images/20905030_730384453820572_6245879078365167616_n.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.description {
+.fuye_pc .description {
   width: 100%;
-  height: 350px;
+  height: 370px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 32px;
 }
-.description .left {
+.fuye_pc .description .left {
   width: 30.48780488%;
   float: left;
 }
-.description .left h3 {
+.fuye_pc .description .left h3 {
   font-size: 24px;
   color: #292929;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 16px;
 }
-.description .left div {
+.fuye_pc .description .left img {
   width: 100%;
   height: 240px;
-  background: url(../images/WYM_7395.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.description .left p {
+.fuye_pc .description .left p {
   display: block;
   width: 96.5%;
   text-align: left;
@@ -519,24 +549,22 @@ body .fuye_ipad {
   color: #595959;
   line-height: 28px;
 }
-.description .middle {
+.fuye_pc .description .middle {
   width: 30.48780488%;
   float: left;
   margin-left: 4.66666667%;
 }
-.description .middle h3 {
+.fuye_pc .description .middle h3 {
   font-size: 24px;
   color: #292929;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 16px;
 }
-.description .middle div {
+.fuye_pc .description .middle img {
   width: 100%;
   height: 240px;
-  background: url(../images/WYM_7325.jpg) no-repeat;
-  background-size: 100% 100%;
 }
-.description .middle p {
+.fuye_pc .description .middle p {
   display: block;
   width: 96.5%;
   text-align: left;
@@ -544,22 +572,21 @@ body .fuye_ipad {
   color: #595959;
   line-height: 28px;
 }
-.description .right {
+.fuye_pc .description .right {
   float: right;
   width: 30.48780488%;
 }
-.description .right h3 {
+.fuye_pc .description .right h3 {
   font-size: 24px;
   color: #292929;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 16px;
 }
-.description .right div {
+.fuye_pc .description .right img {
   width: 100%;
   height: 240px;
-  background: url(../img/a13.png) no-repeat left top;
 }
-.description .right p {
+.fuye_pc .description .right p {
   display: block;
   width: 96.5%;
   text-align: left;
@@ -567,7 +594,7 @@ body .fuye_ipad {
   color: #666;
   line-height: 28px;
 }
-.foot {
+.fuye_pc .foot {
   width: 100%;
   height: 279px;
   background: #f7f7f7;
@@ -575,29 +602,35 @@ body .fuye_ipad {
   color: #999481;
   font-size: 16px;
 }
-.foot .footer {
+.fuye_pc .foot .footer {
   width: 91.11111111%;
-  height: 156px;
+  height: 279px;
   padding-top: 48px;
   margin: 0 auto;
-  line-height: 2.6rem;
-  line-height: 26px;
+  line-height: 22px;
 }
-.foot .footer .address {
+.fuye_pc .foot .footer p {
+  padding: 0;
+  margin: 0;
+}
+.fuye_pc .foot .footer .address {
   width: 30.48780488%;
   float: left;
 }
-.foot .footer .time {
+.fuye_pc .foot .footer .time {
   float: left;
   width: 30.48780488%;
   margin-left: 56px;
 }
-.foot .footer .public-signal {
+.fuye_pc .foot .footer .public-signal {
   float: left;
   margin-left: 56px;
+  cursor: pointer;
 }
-.foot .footer .public-signal a {
-  color: #999481;
-  padding-bottom: 2px;
-  border-bottom: 1px solid #999481;
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }

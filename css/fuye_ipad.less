@@ -1,16 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
-    .fuye_pc {
+    overflow-x: hidden;
+    .fuye_pc,.fuye_iphone {
         display: none;
     }
     .fuye_ipad {
         display: block;
+        .swiper-pagination-bullet{
+            background: #fff;
+            opacity: 0.55;
+        } 
+        .swiper-pagination-bullet-active{
+            background: #fff;
+            opacity: 1;
+        }    
     }
     .daiZhi_nav {
         .container-fluid {
             background-color: #f4f4f4;
             color: #999481;
             .navbar-header {
-                div {
+                button {
                     display: block;
                 }
             }
@@ -110,8 +123,8 @@ body {
         }
     }
     .daiZhi_second {
-        margin-top: 25px;
-        .container {
+        margin-top: 24px;
+        .container,.container-fluid {
             .row {
                 .pad {
                     width: 100%;
@@ -150,40 +163,97 @@ body {
         }
     }
     .other {
+        margin-top: 4px;
         .container {
             padding: 0;
+            margin: 0;
             .row {
                 .topLeft,
                 .topMid,
                 .topRight,
                 {
-                    padding-bottom: 16px;
+                    width: 736px;
+                    margin: 0 auto;
+                    padding-bottom: 24px;
                     padding-top: 5px;
-                    border-bottom: 1px solid #262626;
+                    border-bottom: 1px solid #999481;
                     a {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
                         display: block;
-                        height: 192px;
-                        .kuang {
+                        height: 196px;
+                        //background: red;
+                        text-decoration: none;
+                        position: relative;
+                        margin-top: 18px;
+                        //.kuang {
+                        //    float: left;
+                        //    width: 350px;
+                        //    height: 196px;
+                        //    background: url('../Image/黛芷家居/Home Decor/WYM_7395.jpg') no-repeat 0px 0px;
+                        //    background-size: cover;
+                        //    border: 1px solid #8c8c8c;
+                        //    box-sizing: border-box;
+                        //}
+                        .kuang{
                             float: left;
-                            width: 320px;
-                            height: 192px;
-                            background: url('../Image/黛芷家居/Home Decor/WYM_7395.jpg') no-repeat 0px 0px;
-                            background-size: cover;
-                            border: 1px solid #8c8c8c;
-                            box-sizing: border-box;
+                            padding: 0;
+                            margin: 0;
+                            position: absolute;
+                            top: 0;
+                            left: -15px;
+                            img{
+                                width: 350px;
+                                height: 196px;
+                                padding: 0;
+                                margin: 0;
+                            }
                         }
-                        h3 {
-                            padding-top: 70px;
-                            margin-left: 320px;
-                            padding-left: 34px;
-                            font-size: 24px;
-                            color: #292929;
-                        }
-                        p {
-                            margin-left: 320px;
-                            padding-left: 34px;
-                            font-size: 16px;
-                            line-height: 26px;
+                        
+//                      h3 {
+//                          padding-top: 70px;
+//                          margin-left: 320px;
+//                          padding-left: 34px;
+//                          font-size: 24px;
+//                          color: #292929;
+//                      }
+//                      p {
+//                          margin-left: 320px;
+//                          padding-left: 34px;
+//                          font-size: 16px;
+//                          line-height: 26px;
+//                      }
+                        .ipad-dec{
+                            width: 332px;
+                            height: 196px;
+                           float: left;
+                           margin-left: 38px;
+                           position: relative;
+                           position: absolute;
+                           top: 0;
+                           right: 0;
+                           .dec{
+                               padding: 0;
+                               margin: 0;
+                               position: absolute;
+                               bottom: 0;
+                               left: 0;
+                               p,h3{
+                                   padding: 0;
+                                   margin: 0;
+                               }
+                               P{
+                                   font-size: 16px;
+                                   line-height: 20px;
+                                   font-weight: 100;
+                               }
+                               h3{
+                                   font-size: 24px;
+                                   line-height: 30px;
+                                   font-weight: 500;
+                               }
+                           }
                         }
                     }
                 }
@@ -197,7 +267,7 @@ body {
                 }
                 .topRight {
                     border-bottom: none;
-                    margin-bottom: 60px;
+                    margin-bottom: 24px;
                     a {
                         .kuang {
                             background: url('../Image/黛芷家居/Home Decor/WYM_7325.jpg') no-repeat 0px 0px;
@@ -208,27 +278,220 @@ body {
             }
         }
     }
-    footer {
-        background-color: #f4f4f4;
-        padding-top: 38px;
-        .container {
-            .row {
-                padding-bottom: 100px;
-                .footLeft,
-                .footMid,
-                .footRight {
-                    padding-left: 0;
-                    padding-right: 28px;
-                    p {
-                        font-size: 16px;
-                        line-height: 28px;
-                        color: #999481;
-                    }
-                }
-                .footLeft {}
-                .footMid {}
-                .footRight {}
+}
+.ipad-nav{
+    width: 100%;
+    height: 80px;
+    background: #f4f4f4;
+    .content{
+        width: 736/768*100%;
+        height: 80px;
+        margin: 0 auto;
+        position: relative;
+        .nav-left{
+            width: 36px;
+            height: 24px;
+            position:absolute;
+            //background: red;
+            top: 28px;
+            left: 0;
+            transition: .3s all ease-in;
+            line-height: 80px;
+            //p{
+            //    width: 36px;
+            //    height: 6px;
+            //    background: #999481;
+            //    margin:0;
+            //    padding: 0;
+            //    margin-top: 6px;
+            //}
+            //.first{
+            //    margin-top: 0;
+            //}
+            i{
+                font-size: 36px;
+                position: absolute;
+                top: -27px;
+                left: 0;
+                color: #999481;
+            } 
+        }
+        .nav-active{
+            transform: rotate(90deg);
+            transition: .3s all ease-in;
+        }
+        .ipad-logo{
+            width: 125px;
+            position: absolute;
+            top: -7px;
+            left: 58px;
+        }
+        // .language{
+        //   width: 40px;
+         //   height: 40px;
+        //    position: absolute;
+        //    top: 20px;
+        //    right: 16px;
+        //}
+        .language{
+            font-size: 40px;
+            color: #999481;
+            float: right;
+            line-height: 80px;
+        }
+    }
+}
+.ipad-nav-content{
+    width: 240px;
+    height: 100%;
+    background: #f4f4f4;
+    position: absolute;
+    top: 0;
+    left: -240px;
+    position: fixed;
+    z-index: 2;
+    .shouye{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        //box-sizing: border-box;
+        background: #f4f4f4;
+        //padding-left: 16px;
+        color: #999481;
+        font-size: 24px;
+        position: relative;
+        border-bottom: 1px solid #999481;
+        p{
+           position: absolute;
+           left: 16px;
+        }
+        .symbol{
+            position: absolute;
+            right: 32px;
+            font-size: 30px;
+            color: #999481;
+        }
+    }
+    .home{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background: #f4f4f4;
+        color: #999481;
+        font-size: 24px;
+        position: relative;
+        border-bottom: 1px solid #999481;
+        p{
+           position: absolute;
+           left: 16px;
+        }
+        .symbol{
+            position: absolute;
+            right: 32px;
+            font-size: 30px;
+            color: #999481;
+        }
+    }
+    .huayuan{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background: #f4f4f4;
+        color: #999481;
+        font-size: 24px;
+        position: relative;
+        border-bottom: 1px solid #999481;
+        p{
+           position: absolute;
+           left: 16px;
+        }
+        .symbol{
+            position: absolute;
+            right: 32px;
+            font-size: 30px;
+            color: #999481;
+        }
+    }
+    .tea{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background: #f4f4f4;
+        color: #999481;
+        font-size: 24px;
+        position: relative;
+        border-bottom: 1px solid #999481;
+        p{
+           position: absolute;
+           left: 16px;
+        }
+        .symbol{
+            position: absolute;
+            right: 32px;
+            font-size: 30px;
+            color: #999481;
+        }
+    }
+    .ipad-nav-active{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background: #999481;
+        color: #fff;
+        font-size: 24px;
+        border-bottom: 1px solid #999481;
+        position: relative;
+        p{
+           position: absolute;
+           left: 16px;
+        }
+        .symbol{
+            position: absolute;
+            right: 32px;
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+}
+#ipad-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    .daiZhi_first,.daiZhi_second{
+        width: 100%;
+        p{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .foot{
+        width: 100%;
+        height: 300px;
+        background: #f7f7f7;
+        color: #999481;
+        .footer{
+            width: 736px;
+            margin: 0 auto;
+            a{
+                color: #999481;
+            }
+            .left{
+                width: 350px;
+                float: left;
+            }
+            .right{
+                float: left;
+                margin-left: 38px;
             }
         }
     }
 }
+

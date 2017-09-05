@@ -16,9 +16,10 @@
   // 设置1rem对应的像素比大小
   function setRemUnit () {
   	//var bWidth= document.documentElement.clientWidth;
-    var rem = docEl.clientWidth / 144;
+    var rem = docEl.clientWidth / 15;
     //console.log(bWidth);
-    docEl.style.fontSize = rem + 'px'
+    docEl.style.fontSize = rem + 'px';
+     
   }
 
   setRemUnit();
@@ -38,7 +39,7 @@
     fakeBody.appendChild(testElement)
     docEl.appendChild(fakeBody)
     if (testElement.offsetHeight === 1) {
-      docEl.classList.add('hairlines')
+      docEl.classList.add('hairlines');
     }
     docEl.removeChild(fakeBody);
   }

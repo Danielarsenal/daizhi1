@@ -1,0 +1,292 @@
+body {
+  overflow-x: hidden;
+}
+body .fuye_pc,
+body .fuye_ipad {
+  display: none;
+}
+body .fuye_iphone {
+  display: block;
+}
+body .fuye_iphone .iphone-nav-content {
+  width: 9.6rem;
+  height: 100%;
+  background: #f4f4f4;
+  position: absolute;
+  top: 0;
+  left: -9.6rem;
+  position: fixed;
+  z-index: 2;
+}
+body .fuye_iphone .iphone-nav-content .shouye {
+  width: 100%;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: #f4f4f4;
+  color: #999481;
+  font-size: 0.96rem;
+  position: relative;
+  border-bottom: 1px solid #999481;
+}
+body .fuye_iphone .iphone-nav-content .shouye p {
+  position: absolute;
+  left: 0.64rem;
+}
+body .fuye_iphone .iphone-nav-content .shouye .symbol {
+  position: absolute;
+  right: 1.28rem;
+  font-size: 1.2rem;
+  color: #999481;
+}
+body .fuye_iphone .iphone-nav-content .home {
+  width: 100%;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: #f4f4f4;
+  color: #999481;
+  font-size: 0.96rem;
+  position: relative;
+  border-bottom: 1px solid #999481;
+}
+body .fuye_iphone .iphone-nav-content .home p {
+  position: absolute;
+  left: 0.64rem;
+}
+body .fuye_iphone .iphone-nav-content .home .symbol {
+  position: absolute;
+  right: 1.28rem;
+  font-size: 1.2rem;
+  color: #999481;
+}
+body .fuye_iphone .iphone-nav-content .huayuan {
+  width: 100%;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: #f4f4f4;
+  color: #999481;
+  font-size: 0.96rem;
+  position: relative;
+  border-bottom: 1px solid #999481;
+}
+body .fuye_iphone .iphone-nav-content .huayuan p {
+  position: absolute;
+  left: 0.64rem;
+}
+body .fuye_iphone .iphone-nav-content .huayuan .symbol {
+  position: absolute;
+  right: 1.28rem;
+  font-size: 1.2rem;
+  color: #999481;
+}
+body .fuye_iphone .iphone-nav-content .tea {
+  width: 100%;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: #f4f4f4;
+  color: #999481;
+  font-size: 0.96rem;
+  position: relative;
+  border-bottom: 1px solid #999481;
+}
+body .fuye_iphone .iphone-nav-content .tea p {
+  position: absolute;
+  left: 0.64rem;
+}
+body .fuye_iphone .iphone-nav-content .tea .symbol {
+  position: absolute;
+  right: 1.28rem;
+  font-size: 1.2rem;
+  color: #999481;
+}
+body .fuye_iphone .iphone-nav-content .iphone-nav-active {
+  width: 100%;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: #999481;
+  color: #fff;
+  font-size: 0.96rem;
+  border-bottom: 1px solid #999481;
+  position: relative;
+}
+body .fuye_iphone .iphone-nav-content .iphone-nav-active p {
+  position: absolute;
+  left: 0.64rem;
+}
+body .fuye_iphone .iphone-nav-content .iphone-nav-active .symbol {
+  position: absolute;
+  right: 1.28rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+body .fuye_iphone #fuye_iphone {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .fuye_iphone #fuye_iphone div,
+body .fuye_iphone #fuye_iphone p,
+body .fuye_iphone #fuye_iphone img {
+  padding: 0;
+  margin: 0;
+}
+body .fuye_iphone #fuye_iphone .iphone-head {
+  width: 15rem;
+  height: 2.56rem;
+  background: #f4f4f4;
+  position: relative;
+}
+body .fuye_iphone #fuye_iphone .iphone-head .nav-left {
+  transition: .3s all linear;
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  top: 0.68rem;
+  left: 0.48rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-head .nav-left .icon-ic_menu_black_px {
+  font-size: 1.2rem;
+  color: #999481;
+  position: absolute;
+  top: -0.2rem;
+  left: 0;
+}
+body .fuye_iphone #fuye_iphone .iphone-head .nav-active {
+  transform: rotate(90deg);
+  transition: .3s all linear;
+}
+body .fuye_iphone #fuye_iphone .iphone-head #iphone-logo {
+  margin-left: 2rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-head .language {
+  line-height: 2.56rem;
+  font-size: 1.2rem;
+  color: #999481;
+  float: right;
+  margin-right: 0.48rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .iphone-contenter {
+  width: 14.12rem;
+  margin: 0 auto;
+  padding-bottom: 1.04rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .iphone-contenter .daizhi h3 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.96rem;
+  font-size: 0.84rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .iphone-contenter .daizhi .maka {
+  width: 100%;
+  height: 7.72rem;
+  margin-top: 0.96rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .bali {
+  position: relative;
+  width: 100%;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .bali .dula {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.48rem;
+  font-size: 0.64rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .bali span {
+  display: block;
+  width: 0.96rem;
+  height: 1px;
+  background: #999481;
+  position: absolute;
+  top: 0.96rem;
+  left: 6.58rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .bali .lad {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.48rem;
+  font-size: 0.56rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .bali img {
+  width: 100%;
+  height: 9.12rem;
+  margin-top: 0.48rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower {
+  position: relative;
+  width: 100%;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower .mimi {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.48rem;
+  font-size: 0.64rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower span {
+  display: block;
+  width: 0.96rem;
+  height: 1px;
+  background: #999481;
+  position: absolute;
+  top: 0.96rem;
+  left: 6.58rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower .sec {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.48rem;
+  font-size: 0.56rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower img {
+  width: 100%;
+  height: 9.12rem;
+  margin-top: 0.48rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower-shop {
+  border-top: 1px solid #999481;
+  margin-top: 0.48rem;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower-shop h3 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.32rem;
+  font-size: 0.64rem;
+  font-weight: 300;
+}
+body .fuye_iphone #fuye_iphone .iphone-content .flower-shop p {
+  padding: 0;
+  margin: 0;
+  width: 12.64rem;
+  margin: 0 auto;
+  font-size: 0.56rem;
+  margin-top: 0.16rem;
+  font-weight: 300;
+}
+body .fuye_iphone .foot {
+  width: 15rem;
+  height: 10rem;
+  background: #f7f7f7;
+}
+body .fuye_iphone .foot .footer {
+  width: 13.48rem;
+  height: 10rem;
+}
+body .fuye_iphone .foot .footer p {
+  font-size: 0.44rem;
+  line-height: 0.72rem;
+  color: #999481;
+}
