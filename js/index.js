@@ -43,27 +43,28 @@ $(function () {
     //ipad左侧导航栏
     $('.nav-left').click(function () {
         if ($(this).is('.nav-active')) {
-            $(this).animate({ left: 0, top: 8 });
-            $('#logo').animate({ left: 38 });
-            $('.ipad_nav_content').animate({ left: -240 });
-            $('.content-wrapper').css('position', 'static').css('marginLeft', 0);
-            $('.content-wrapper').animate({ left: 0 });
+            $(this).animate({ left: 0,top:5}, 300);
+            $('#logo').animate({ left: 38 }, 300);
+            $('.ipad_nav_content').animate({ left: -240 }, 300);
+            $('.content-wrapper').css({ marginLeft: 0 });
+            $('.content-wrapper').css('position', 'static');
+            $('.content-wrapper').animate({ left: 0 }, 300);
+            $('.content-wrapper').animate({ marginLeft: 0 },300);
+
             $(this).removeClass('nav-active');
             $('footer').css('display', 'block');
         } else {
             $('footer').css('display', 'none');
-            $(this).animate({ left: 240, top: 16 });
-            $('#logo').animate({ left: 278 });
-            $('.ipad_nav_content').animate({ left: 0 });
+            $(this).animate({ left: 240,top:5 }, 300);
+            $('#logo').animate({ left: 278 }, 300);
+            $('.ipad_nav_content').animate({ left: 0 }, 300);
             if (width <= 1024) {/*说明非移动端*/
                 $('.content-wrapper').css('position', 'absolute');
                 var contentWidth = $('.content-wrapper').width();
-                console.log(contentWidth);
                 contentWidth /= -2;
-                console.log(contentWidth);
                 $('.content-wrapper').css('left', '50%').css('marginLeft', contentWidth + 'px');
             }
-            $('.content-wrapper').animate({ marginLeft: contentWidth + 240 });
+            $('.content-wrapper').animate({ marginLeft: contentWidth + 240 }, 300);
             $(this).addClass('nav-active');
         }
     });
@@ -71,22 +72,22 @@ $(function () {
     //iphone左侧导航栏
     $('.iphone_nav_left').click(function () {
         if ($(this).is('.nav-active')) {
-            $(this).animate({ left: 15, top: 2 });
-            $('.language i').animate({ right: 15, top: 5 });
-            $('#iphone_logo').animate({ left: 15 });
-            $('.ipad_nav_content').animate({ left: -240 });
+            $(this).animate({ left: 15 }, 300);
+            $('.language i').animate({ right: 15, top: 5 }, 300);
+            $('#iphone_logo').animate({ left: 15 }, 300);
+            $('.ipad_nav_content').animate({ left: -240 }, 300);
             // $('.content-wrapper').css('width', width);
-            $('.content-wrapper').css('position', 'static').css('marginLeft', 0);
-            $('.content-wrapper').animate({ left: 0 });
+            $('.content-wrapper').css('position', 'static').animate({ marginLeft: 0 }, 300);
+            $('.content-wrapper').animate({ left: 0 }, 300);
             $(this).removeClass('nav-active');
             $('footer').css('display', 'block');
 
         } else {
             $('footer').css('display', 'none');
-            $(this).animate({ left: 255, top: 10 });
-            $('.language i').animate({ right: -255, top: 5 });
-            $('#iphone_logo').animate({ left: 255 });
-            $('.ipad_nav_content').animate({ left: 0 });
+            $(this).animate({ left: 255 }, 300);
+            $('.language i').animate({ right: -255, top: 5 }, 300);
+            $('#iphone_logo').animate({ left: 255 }, 300);
+            $('.ipad_nav_content').animate({ left: 0 }, 300);
             if (width <= 1024) {/*说明非移动端*/
                 $('.content-wrapper').css('position', 'absolute');
                 var contentWidth = $('.content-wrapper').width();
@@ -94,10 +95,10 @@ $(function () {
                 console.log(contentWidth);
                 contentWidth /= -2;
                 console.log(contentWidth);
-                $('.content-wrapper').css('left', '50%').css('marginLeft', contentWidth + 'px');
+                $('.content-wrapper').animate({ left: '50%', marginLeft: contentWidth }, 300);
             }
             // $('.content-wrapper').css('width', width);
-            $('.content-wrapper').animate({ marginLeft: 240 });
+            $('.content-wrapper').animate({ marginLeft: 240 }, 300);
             $(this).addClass('nav-active');
         }
     })
